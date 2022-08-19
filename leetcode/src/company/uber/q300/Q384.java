@@ -17,19 +17,18 @@ public class Q384 {
         }
 
         public int[] shuffle() {
-            int[] res = nums.clone();
+            int[] clone = nums.clone();
             for (int i = 1; i < nums.length; i++) {
                 int j = random.nextInt(i + 1);
-                swap(res, i, j);
+                swap(clone, i, j);
             }
-            return res;
+            return clone;
         }
 
-        private void swap(int[] res, int i, int j) {
-            int t = res[i];
-            res[i] = res[j];
-            res[j] = t;
+        private void swap(int[] clone, int i, int j) {
+            int t = clone[i];
+            clone[i] = clone[j];
+            clone[j] = t;
         }
     }
-
 }

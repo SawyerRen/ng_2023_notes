@@ -8,15 +8,17 @@ public class Q692 {
         for (String word : words) {
             map.put(word, map.getOrDefault(word, 0) + 1);
         }
-        PriorityQueue<Map.Entry<String, Integer>> pq =
-                new PriorityQueue<>((a, b) -> a.getValue().equals(b.getValue()) ? b.getKey().compareTo(a.getKey()) : a.getValue() - b.getValue());
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            pq.add(entry);
+        LinkedList<String> res = new LinkedList<>();
+        PriorityQueue<String> pq = new PriorityQueue<>((a, b) -> {
+            if (map.get(a).equals(map.get(b))) return b.compareTo(a);
+            return map.get(a) - map.get(b);
+        });
+        for (String word : map.keySet()) {
+            pq.add(word);
             if (pq.size() > k) pq.poll();
         }
-        LinkedList<String> res = new LinkedList<>();
         while (!pq.isEmpty()) {
-            res.addFirst(pq.poll().getKey());
+            res.addFirst(pq.poll());
         }
         return res;
     }

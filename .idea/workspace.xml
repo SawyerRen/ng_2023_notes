@@ -23,16 +23,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1000/Q1029.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1100/Q1169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1200/Q1209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1200/Q1244.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1200/Q1274.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1300/Q1396.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1600/Q1656.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q300/Q394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q400/Q430.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q700/Q723.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q68.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1838.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q2000/Q2023.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q305.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q332.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q428.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q528.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q700/Q773.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q827.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q900/Q930.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1400.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1400.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1428.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1428.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1438.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1438.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1842.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1842.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1861.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1861.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q200/Q212.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q200/Q212.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q312.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q312.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q361.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q361.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q384.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q384.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q399.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q399.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q427.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q427.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q465.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q465.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q529.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q529.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q564.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q564.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q600/Q692.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q600/Q692.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q700/Q729.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q700/Q729.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q815.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q815.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q855.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q855.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q900/Q986.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q900/Q986.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +105,41 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Q773" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.uber.q700.Q773" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.uber.q700.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Q773" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,7 +153,9 @@
       <workItem from="1660691363143" duration="22141000" />
       <workItem from="1660789862407" duration="936000" />
       <workItem from="1660794954122" duration="882000" />
-      <workItem from="1660831333098" duration="241000" />
+      <workItem from="1660831333098" duration="9375000" />
+      <workItem from="1660858420669" duration="6804000" />
+      <workItem from="1660872828967" duration="8905000" />
     </task>
     <servers />
   </component>
@@ -118,17 +175,76 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1660764016427">
+    <state x="1024" y="64" key="#Project_Structure" timestamp="1660875534647">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660764016427" />
+    <state x="1024" y="64" key="#Project_Structure/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875534647" />
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1660877192373">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660877192373" />
+    <state width="1218" height="353" key="GridCell.Tab.0.bottom" timestamp="1660875757017">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="1218" height="353" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757017" />
+    <state width="1218" height="353" key="GridCell.Tab.0.center" timestamp="1660875757016">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="1218" height="353" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757016" />
+    <state width="1218" height="353" key="GridCell.Tab.0.left" timestamp="1660875757016">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="1218" height="353" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757016" />
+    <state width="1218" height="353" key="GridCell.Tab.0.right" timestamp="1660875757016">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="1218" height="353" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757016" />
+    <state width="2498" height="436" key="GridCell.Tab.1.bottom" timestamp="1660875668520">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668520" />
+    <state width="2498" height="436" key="GridCell.Tab.1.center" timestamp="1660875668519">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668519" />
+    <state width="2498" height="436" key="GridCell.Tab.1.left" timestamp="1660875668519">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668519" />
+    <state width="2498" height="436" key="GridCell.Tab.1.right" timestamp="1660875668520">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668520" />
+    <state x="1123" y="151" key="SettingsEditor" timestamp="1660875482472">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1123" y="151" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875482472" />
+    <state width="900" height="642" key="javadoc.popup" timestamp="1660835583183">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="900" height="642" key="javadoc.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660835583183" />
     <state x="1471" y="115" key="new project wizard" timestamp="1660608197252">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1471" y="115" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660608197252" />
+    <state x="1598" y="395" key="refactoring.ChangeSignatureDialog" timestamp="1660880879744">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1598" y="395" key="refactoring.ChangeSignatureDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660880879744" />
     <state x="1417" y="25" key="search.everywhere.popup" timestamp="1660795238289">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1417" y="25" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660795238289" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/company/uber/q700/Q773.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

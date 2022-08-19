@@ -10,17 +10,15 @@ public class Q1428 {
     }
 
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
-        Integer m = binaryMatrix.dimensions().get(0);
-        Integer n = binaryMatrix.dimensions().get(1);
+        int m = binaryMatrix.dimensions().get(0);
+        int n = binaryMatrix.dimensions().get(1);
         int i = 0, j = n - 1;
         while (i < m && j >= 0) {
-            if (binaryMatrix.get(i, j) == 1) {
+            while (j >= 0 && binaryMatrix.get(i, j) == 1) {
                 j--;
-            } else {
-                i++;
             }
+            i++;
         }
-        if (j == n - 1) return -1;
-        return j + 1;
+        return j == n - 1 ? -1 : j + 1;
     }
 }

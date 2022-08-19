@@ -11,21 +11,20 @@ public class Q815 {
                 stop2Route.get(stop).add(i);
             }
         }
-        Set<Integer> visitedRoutes = new HashSet<>();
-        Set<Integer> visitedStops = new HashSet<>();
+        int res = 0;
         Queue<Integer> queue = new LinkedList<>();
         queue.add(source);
-        visitedStops.add(source);
-        int res = 0;
+        Set<Integer> visitedRoutes = new HashSet<>();
+        Set<Integer> visitedStops = new HashSet<>();
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                Integer stop = queue.poll();
-                if (stop == target) return res;
-                for (Integer nextRoute : stop2Route.get(stop)) {
+                Integer poll = queue.poll();
+                if (poll == target) return res;
+                for (Integer nextRoute : stop2Route.get(poll)) {
                     if (visitedRoutes.contains(nextRoute)) continue;
                     visitedRoutes.add(nextRoute);
-                    for (Integer nextStop : routes[nextRoute]) {
+                    for (int nextStop : routes[nextRoute]) {
                         if (visitedStops.contains(nextStop)) continue;
                         visitedStops.add(nextStop);
                         queue.add(nextStop);

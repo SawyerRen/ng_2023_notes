@@ -39,16 +39,16 @@ public class Q427 {
     }
 
     public Node construct(int[][] grid) {
-        return helper(grid, grid.length, 0, 0);
+        return helper(grid, 0, 0, grid.length);
     }
 
-    private Node helper(int[][] grid, int n, int x, int y) {
-        if (n == 1) return new Node(grid[x][y] == 1, true);
+    private Node helper(int[][] grid, int i, int j, int n) {
+        if (n == 1) return new Node(grid[i][j] == 1, true);
         Node node = new Node();
-        Node topLeft = helper(grid, n / 2, x, y);
-        Node topRight = helper(grid, n / 2, x, y + n / 2);
-        Node bottomLeft = helper(grid, n / 2, x + n / 2, y);
-        Node bottomRight = helper(grid, n / 2, x + n / 2, y + n / 2);
+        Node topLeft = helper(grid, i, j, n / 2);
+        Node topRight = helper(grid, i, j + n / 2, n / 2);
+        Node bottomLeft = helper(grid, i + n / 2, j, n / 2);
+        Node bottomRight = helper(grid, i + n / 2, j + n / 2, n / 2);
         if (topLeft.isLeaf && topRight.isLeaf && bottomLeft.isLeaf && bottomRight.isLeaf
                 && topLeft.val == topRight.val && topRight.val == bottomLeft.val && bottomLeft.val == bottomRight.val) {
             node.val = topLeft.val;
