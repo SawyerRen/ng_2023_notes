@@ -1,25 +1,23 @@
 package company.bloomberg.q1600;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Q1656 {
     class OrderedStream {
-        String[] values;
-        int nextIndex;
+        String[] nums;
+        int pointer;
 
         public OrderedStream(int n) {
-            values = new String[n + 1];
-            nextIndex = 1;
+            nums = new String[n + 1];
+            pointer = 1;
         }
 
         public List<String> insert(int idKey, String value) {
-            values[idKey] = value;
             List<String> res = new ArrayList<>();
-            while (nextIndex < values.length && values[nextIndex] != null) {
-                res.add(values[nextIndex++]);
+            nums[idKey] = value;
+            while (pointer < nums.length && nums[pointer] != null) {
+                res.add(nums[pointer++]);
             }
             return res;
         }

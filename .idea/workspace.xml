@@ -23,37 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q68.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1814.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1838.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q2000/Q2023.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q305.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q332.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q428.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q528.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q700/Q773.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q827.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q900/Q930.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1400.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1400.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1428.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1428.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1438.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1438.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1842.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1842.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1861.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1861.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q200/Q212.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q200/Q212.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q312.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q312.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q361.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q361.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q384.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q384.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q399.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q399.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q427.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q427.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q465.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q465.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q529.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q529.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q564.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q564.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q600/Q692.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q600/Q692.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q700/Q729.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q700/Q729.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q815.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q815.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q855.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q855.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q900/Q986.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q900/Q986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/other/LinuxFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/other/MetricTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/other/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1600/Q1628.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q2100/Q2104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q2200/Q2272.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q348.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q353.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1300/Q1396.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1300/Q1396.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1600/Q1656.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/q1600/Q1656.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,7 +137,10 @@
       <workItem from="1660794954122" duration="882000" />
       <workItem from="1660831333098" duration="9375000" />
       <workItem from="1660858420669" duration="6804000" />
-      <workItem from="1660872828967" duration="8905000" />
+      <workItem from="1660872828967" duration="9043000" />
+      <workItem from="1660925158678" duration="1076000" />
+      <workItem from="1660932354204" duration="7295000" />
+      <workItem from="1660958573320" duration="3409000" />
     </task>
     <servers />
   </component>
@@ -179,46 +164,46 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1024" y="64" key="#Project_Structure/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875534647" />
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1660877192373">
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1660961959035">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660877192373" />
-    <state width="1218" height="353" key="GridCell.Tab.0.bottom" timestamp="1660875757017">
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660961959035" />
+    <state width="1218" height="353" key="GridCell.Tab.0.bottom" timestamp="1660883864444">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="353" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757017" />
-    <state width="1218" height="353" key="GridCell.Tab.0.center" timestamp="1660875757016">
+    <state width="1218" height="353" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864444" />
+    <state width="1218" height="353" key="GridCell.Tab.0.center" timestamp="1660883864443">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="353" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757016" />
-    <state width="1218" height="353" key="GridCell.Tab.0.left" timestamp="1660875757016">
+    <state width="1218" height="353" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864443" />
+    <state width="1218" height="353" key="GridCell.Tab.0.left" timestamp="1660883864443">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="353" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757016" />
-    <state width="1218" height="353" key="GridCell.Tab.0.right" timestamp="1660875757016">
+    <state width="1218" height="353" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864443" />
+    <state width="1218" height="353" key="GridCell.Tab.0.right" timestamp="1660883864444">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="353" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875757016" />
-    <state width="2498" height="436" key="GridCell.Tab.1.bottom" timestamp="1660875668520">
+    <state width="1218" height="353" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864444" />
+    <state width="2498" height="436" key="GridCell.Tab.1.bottom" timestamp="1660883864440">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668520" />
-    <state width="2498" height="436" key="GridCell.Tab.1.center" timestamp="1660875668519">
+    <state width="2498" height="436" key="GridCell.Tab.1.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864440" />
+    <state width="2498" height="436" key="GridCell.Tab.1.center" timestamp="1660883864440">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668519" />
-    <state width="2498" height="436" key="GridCell.Tab.1.left" timestamp="1660875668519">
+    <state width="2498" height="436" key="GridCell.Tab.1.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864440" />
+    <state width="2498" height="436" key="GridCell.Tab.1.left" timestamp="1660883864440">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668519" />
-    <state width="2498" height="436" key="GridCell.Tab.1.right" timestamp="1660875668520">
+    <state width="2498" height="436" key="GridCell.Tab.1.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864440" />
+    <state width="2498" height="436" key="GridCell.Tab.1.right" timestamp="1660883864440">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875668520" />
-    <state x="1123" y="151" key="SettingsEditor" timestamp="1660875482472">
+    <state width="2498" height="436" key="GridCell.Tab.1.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660883864440" />
+    <state x="1024" y="103" key="SettingsEditor" timestamp="1660939657379">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1123" y="151" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660875482472" />
+    <state x="1024" y="103" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660939657379" />
     <state width="900" height="642" key="javadoc.popup" timestamp="1660835583183">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
