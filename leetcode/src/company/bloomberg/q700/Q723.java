@@ -7,35 +7,36 @@ public class Q723 {
         for (int i = 0; i < m; i++) {
             for (int j = 1; j < n - 1; j++) {
                 int val = Math.abs(board[i][j]);
-                if (val != 0 && Math.abs(board[i][j - 1]) == val && Math.abs(board[i][j + 1]) == val) {
-                    finished = false;
+                if (val == 0) continue;
+                if (val == Math.abs(board[i][j - 1]) && val == Math.abs(board[i][j + 1])) {
                     board[i][j - 1] = board[i][j] = board[i][j + 1] = -val;
+                    finished = false;
                 }
             }
         }
         for (int j = 0; j < n; j++) {
             for (int i = 1; i < m - 1; i++) {
                 int val = Math.abs(board[i][j]);
-                if (val != 0 && Math.abs(board[i - 1][j]) == val && Math.abs(board[i + 1][j]) == val) {
+                if (val == 0) continue;
+                if (val == Math.abs(board[i - 1][j]) && val == Math.abs(board[i + 1][j])) {
                     board[i - 1][j] = board[i][j] = board[i + 1][j] = -val;
                     finished = false;
                 }
             }
         }
         for (int col = 0; col < n; col++) {
-            int nonEmptyRow = m - 1;
             int row = m - 1;
-            while (row >= 0) {
-                if (board[row][col] > 0) {
-                    board[nonEmptyRow--][col] = board[row][col];
+            int i = m - 1;
+            while (i >= 0) {
+                if (board[i][col] > 0) {
+                    board[row--][col] = board[i][col];
                 }
-                row--;
+                i--;
             }
-            for (int i = 0; i <= nonEmptyRow; i++) {
-                board[i][col] = 0;
+            while (row >= 0) {
+                board[row--][col] = 0;
             }
         }
-        if (finished) return board;
-        return candyCrush(board);
+        return finished ? board : candyCrush(board);
     }
 }
