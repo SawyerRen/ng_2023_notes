@@ -18,9 +18,10 @@ public class Q212 {
         }
         Set<String> res = new HashSet<>();
         int m = board.length, n = board[0].length;
+        Node cur = root;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                dfs(board, root, res, i, j, m, n);
+                dfs(board, res, cur, i, j, m, n);
             }
         }
         return new ArrayList<>(res);
@@ -28,16 +29,16 @@ public class Q212 {
 
     int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
-    private void dfs(char[][] board, Node node, Set<String> res, int i, int j, int m, int n) {
+    private void dfs(char[][] board, Set<String> res, Node cur, int i, int j, int m, int n) {
         char c = board[i][j];
-        if (c == '#' || node.children[c - 'a'] == null) return;
-        node = node.children[c - 'a'];
-        if (node.word != null) res.add(node.word);
+        if (cur.children[c - 'a'] == null) return;
+        cur = cur.children[c - 'a'];
+        if (cur.word != null) res.add(cur.word);
         board[i][j] = '#';
         for (int[] dir : dirs) {
             int x = i + dir[0], y = j + dir[1];
-            if (x < 0 || x >= m || y < 0 || y >= n) continue;
-            dfs(board, node, res, x, y, m, n);
+            if (x < 0 || x >= m || y < 0 || y >= n || board[x][y] == '#') continue;
+            dfs(board, res, cur, x, y, m, n);
         }
         board[i][j] = c;
     }

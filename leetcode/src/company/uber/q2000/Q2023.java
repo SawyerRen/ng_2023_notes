@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class Q2023 {
     public int numOfPairs(String[] nums, String target) {
-        Map<String, Integer> map = new HashMap<>();
         int res = 0;
+        Map<String, Integer> map = new HashMap<>();
         for (String num : nums) {
             if (target.startsWith(num)) {
                 String sub = target.substring(num.length());

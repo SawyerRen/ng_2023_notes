@@ -5,21 +5,21 @@ import java.util.LinkedList;
 
 public class Q1438 {
     public int longestSubarray(int[] nums, int limit) {
-        Deque<Integer> minQueue = new LinkedList<>();
         Deque<Integer> maxQueue = new LinkedList<>();
-        int i = 0, j = 0, res = 0;
+        Deque<Integer> minQueue = new LinkedList<>();
+        int res = 0, i = 0, j = 0;
         while (j < nums.length) {
-            while (!minQueue.isEmpty() && nums[j] < minQueue.getLast()) {
-                minQueue.removeLast();
-            }
-            minQueue.addLast(nums[j]);
             while (!maxQueue.isEmpty() && nums[j] > maxQueue.getLast()) {
-                maxQueue.removeLast();
+                maxQueue.pollLast();
             }
             maxQueue.addLast(nums[j]);
-            while (maxQueue.getFirst() - minQueue.getFirst() > limit) {
-                if (maxQueue.getFirst() == nums[i]) maxQueue.removeFirst();
-                if (minQueue.getFirst() == nums[i]) minQueue.removeFirst();
+            while (!minQueue.isEmpty() && nums[j] < minQueue.getLast()) {
+                minQueue.pollLast();
+            }
+            minQueue.addLast(nums[j]);
+            while (maxQueue.peekFirst() - minQueue.peekFirst() > limit) {
+                if (nums[i] == maxQueue.peekFirst()) maxQueue.pollFirst();
+                if (nums[i] == minQueue.peekFirst()) minQueue.pollFirst();
                 i++;
             }
             res = Math.max(res, j - i + 1);

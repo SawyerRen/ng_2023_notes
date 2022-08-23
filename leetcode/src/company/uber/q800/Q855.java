@@ -4,26 +4,26 @@ import java.util.PriorityQueue;
 
 public class Q855 {
     class ExamRoom {
-        PriorityQueue<int[]> pq;
         int n;
+        PriorityQueue<int[]> pq;
 
         int calDist(int[] interval) {
-            int dist = 0;
             if (interval[0] == -1) {
-                dist = interval[1];
+                return interval[1];
             } else if (interval[1] == n) {
-                dist = n - 1 - interval[0];
+                return n - 1 - interval[0];
             } else {
-                dist = (interval[1] - interval[0]) / 2;
+                return (interval[1] - interval[0]) / 2;
             }
-            return dist;
         }
 
         public ExamRoom(int n) {
             this.n = n;
-            pq = new PriorityQueue<>((a, b) -> {
-                if (calDist(a) == calDist(b)) return a[0] - b[0];
-                return calDist(b) - calDist(a);
+            this.pq = new PriorityQueue<>((a, b) -> {
+                int d1 = calDist(a);
+                int d2 = calDist(b);
+                if (d1 == d2) return a[0] - b[0];
+                return d2 - d1;
             });
             pq.add(new int[]{-1, n});
         }
@@ -36,7 +36,7 @@ public class Q855 {
             } else if (poll[1] == n) {
                 seat = n - 1;
             } else {
-                seat = poll[0] + calDist(poll);
+                seat = poll[0] + (poll[1] - poll[0]) / 2;
             }
             pq.add(new int[]{poll[0], seat});
             pq.add(new int[]{seat, poll[1]});

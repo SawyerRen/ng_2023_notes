@@ -6,8 +6,9 @@ import java.util.Map;
 public class Q930 {
     public int numSubarraysWithSum(int[] nums, int goal) {
         Map<Integer, Integer> map = new HashMap<>();
-        int preSum = 0, res = 0;
         map.put(0, 1);
+        int preSum = 0;
+        int res = 0;
         for (int num : nums) {
             preSum += num;
             res += map.getOrDefault(preSum - goal, 0);

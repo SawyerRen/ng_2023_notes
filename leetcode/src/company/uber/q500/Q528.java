@@ -4,17 +4,17 @@ import java.util.Random;
 
 public class Q528 {
     class Solution {
-        Random random;
         int[] preSum;
+        Random random;
 
         public Solution(int[] w) {
-            random = new Random();
-            int sum = 0;
             preSum = new int[w.length];
+            int sum = 0;
             for (int i = 0; i < w.length; i++) {
                 sum += w[i];
                 preSum[i] = sum;
             }
+            random = new Random();
         }
 
         public int pickIndex() {

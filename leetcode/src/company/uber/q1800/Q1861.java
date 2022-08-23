@@ -10,13 +10,14 @@ public class Q1861 {
             }
         }
         for (int col = 0; col < m; col++) {
-            int stoneRow = n - 1, row = n - 1;
+            int row = n - 1;
+            int stone = n - 1;
             while (row >= 0) {
-                if (res[row][col] == '*') {
-                    stoneRow = row - 1;
-                } else if (res[row][col] == '#') {
+                if (res[row][col] == '#') {
                     res[row][col] = '.';
-                    res[stoneRow--][col] = '#';
+                    res[stone--][col] = '#';
+                } else if (res[row][col] == '*') {
+                    stone = row - 1;
                 }
                 row--;
             }
