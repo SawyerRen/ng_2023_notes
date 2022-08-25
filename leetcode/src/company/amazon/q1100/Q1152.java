@@ -12,28 +12,28 @@ public class Q1152 {
             map.get(username[i]).add(new Pair<>(timestamp[i], website[i]));
         }
         Map<String, Integer> countMap = new HashMap<>();
-        String res = "";
-        for (List<Pair<Integer, String>> pairs : map.values()) {
-            pairs.sort((a, b) -> a.getKey() - b.getKey());
-            int size = pairs.size();
+        int maxCount = 0;
+        String s = "";
+        for (List<Pair<Integer, String>> pairList : map.values()) {
+            pairList.sort((a, b) -> a.getKey() - b.getKey());
             Set<String> set = new HashSet<>();
-            for (int i = 0; i < size - 2; i++) {
-                for (int j = i + 1; j < size - 1; j++) {
-                    for (int k = j + 1; k < size; k++) {
-                        String pattern = pairs.get(i).getValue() + "_" + pairs.get(j).getValue() + "_"
-                                + pairs.get(k).getValue();
+            for (int i = 0; i < pairList.size() - 2; i++) {
+                for (int j = i + 1; j < pairList.size() - 1; j++) {
+                    for (int k = j + 1; k < pairList.size(); k++) {
+                        String pattern = pairList.get(i).getValue() + "_" + pairList.get(j).getValue() + "_" + pairList.get(k).getValue();
                         if (set.contains(pattern)) continue;
                         countMap.put(pattern, countMap.getOrDefault(pattern, 0) + 1);
                         set.add(pattern);
-                        if (res.equals("") || countMap.get(pattern) > countMap.get(res)
-                                || (countMap.get(pattern).equals(countMap.get(res)) && pattern.compareTo(res) < 0)) {
-                            res = pattern;
+                        if (countMap.get(pattern) > maxCount) {
+                            maxCount = countMap.get(pattern);
+                            s = pattern;
+                        } else if (countMap.get(pattern) == maxCount && pattern.compareTo(s) < 0) {
+                            s = pattern;
                         }
                     }
                 }
             }
         }
-        List<String> list = new ArrayList<>(Arrays.asList(res.split("_")));
-        return list;
+        return new ArrayList<>(Arrays.asList(s.split("_")));
     }
 }

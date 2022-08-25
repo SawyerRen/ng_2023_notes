@@ -1,14 +1,87 @@
-package company.amazon.other;
+package company.amazon.ood.parkinglot;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-/**
- * Design an OO parking lot. What classes and functions will it have. It should say, full,
- * empty and also be able to find spot for Valet parking. The lot has 3 different types of
- * parking: regular, handicapped and compact.
- */
+enum VehicleType {
+    CAR,
+    TRUCK,
+    ELECTRIC,
+    VAN,
+    MOTORBIKE
+}
+
+enum ParkingTicketStatus {
+    ACTIVE,
+    PAID,
+    LOST
+}
+
+class Address {
+    String streetAddress;
+    String city;
+    String state;
+    String zipCode;
+    String country;
+}
+
+class Person {
+    String name;
+    Address address;
+    String email;
+    String phone;
+}
+
+abstract class Account {
+    String userName;
+    String password;
+    Person person;
+}
+
+class ParkingSlot {
+    boolean isVacant;
+    Vehicle vehicle;
+    ParkingType parkingType;
+    int id;
+
+    void assignVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+        isVacant = false;
+    }
+
+    void removeVehicle(Vehicle vehicle) {
+        this.vehicle = null;
+        isVacant = true;
+    }
+}
+
+class Vehicle {
+    int id;
+    VehicleType vehicleType;
+
+    public Vehicle(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
+    }
+}
+
+class Car extends Vehicle {
+    public Car() {
+        super(VehicleType.CAR);
+    }
+}
+
+class Van extends Vehicle {
+    public Van() {
+        super(VehicleType.VAN);
+    }
+}
+
+class Truck extends Vehicle {
+    public Truck() {
+        super(VehicleType.TRUCK);
+    }
+}
+
 public class ParkingLot {
     Map<Integer, ParkingSlot> vacantSlots = new HashMap<>();
     Map<Integer, ParkingSlot> fullSlots = new HashMap<>();
@@ -32,8 +105,7 @@ public class ParkingLot {
         if (!isFull) {
             ParkingSlot slot = findVacantSlot(type);
             if (slot != null) {
-                slot.vehicle = vehicle;
-                slot.isVacant = false;
+                slot.assignVehicle(vehicle);
                 vacantSlots.remove(slot.id);
                 fullSlots.put(slot.id, slot);
                 if (fullSlots.size() == this.slotCount) {
@@ -46,8 +118,7 @@ public class ParkingLot {
 
     void releaseVehicle(Vehicle vehicle) {
         ParkingSlot slot = vehicleParkingSlotMap.get(vehicle);
-        slot.vehicle = null;
-        slot.isVacant = true;
+        slot.removeVehicle(vehicle);
         fullSlots.remove(slot.id);
         vacantSlots.put(slot.id, slot);
         if (vacantSlots.size() == this.slotCount) {
@@ -57,17 +128,6 @@ public class ParkingLot {
     }
 }
 
-class ParkingSlot {
-    boolean isVacant;
-    Vehicle vehicle;
-    ParkingType parkingType;
-    int distance;
-    int id;
-}
-
-class Vehicle {
-    int num;
-}
 
 enum ParkingType {
     REGULAR,

@@ -17,11 +17,10 @@ public class Q472 {
     }
 
     private boolean canForm(String word, Set<String> wordSet) {
-        if (wordSet.isEmpty()) return false;
         int n = word.length();
         boolean[] dp = new boolean[n + 1];
         dp[0] = true;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i < n + 1; i++) {
             for (int j = 0; j < i; j++) {
                 if (dp[j] && wordSet.contains(word.substring(j, i))) {
                     dp[i] = true;
