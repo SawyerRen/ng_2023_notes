@@ -22,6 +22,9 @@ public class MetricTracker {
 
     LinkedList<MetricItem> itemList = new LinkedList<>();
     Map<String, LinkedList<MetricItem>> map = new HashMap<>();
+    Map<String, Integer> sumMap = new HashMap<>();
+    Map<String, Integer> minMap = new HashMap<>();
+    Map<String, Integer> maxMap = new HashMap<>();
 
     void insert(String type, int value) {
         MetricItem item = new MetricItem(type, value, System.currentTimeMillis());
@@ -45,10 +48,10 @@ public class MetricTracker {
                 break;
         }
         while (itemList.size() > 0) {
-            MetricItem lastItem = itemList.getLast();
+            MetricItem lastItem = itemList.getFirst();
             if (curTimestamp - lastItem.timestamp < duration) {
-                itemList.removeLast();
-                map.get(lastItem.type).removeLast();
+                itemList.removeFirst();
+                map.get(lastItem.type).removeFirst();
             } else {
                 break;
             }
