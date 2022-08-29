@@ -39,24 +39,24 @@ public class Q427 {
     }
 
     public Node construct(int[][] grid) {
-        return _construct(grid, 0, 0, grid.length);
+        return helper(grid, 0, 0, grid.length);
     }
 
-    private Node _construct(int[][] grid, int i, int j, int n) {
-        if (n == 1) return new Node(grid[i][j] == 1, true);
-        Node topLeft = _construct(grid, i, j, n / 2);
-        Node topRight = _construct(grid, i, j + n / 2, n / 2);
-        Node bottomLeft = _construct(grid, i + n / 2, j, n / 2);
-        Node bottomRight = _construct(grid, i + n / 2, j + n / 2, n / 2);
+    private Node helper(int[][] grid, int i, int j, int length) {
+        if (length == 1) return new Node(grid[i][j] == 1, true);
         Node node = new Node();
-        if (topLeft.isLeaf && topRight.isLeaf && bottomLeft.isLeaf && bottomRight.isLeaf
-                && topLeft.val == topRight.val && topRight.val == bottomLeft.val && bottomLeft.val == bottomRight.val) {
-            node.val = topLeft.val;
+        Node topLeft = helper(grid, i, j, length / 2);
+        Node bottomLeft = helper(grid, i + length / 2, j, length / 2);
+        Node topRight = helper(grid, i, j + length / 2, length / 2);
+        Node bottomRight = helper(grid, i + length / 2, j + length / 2, length / 2);
+        if (topLeft.isLeaf && bottomLeft.isLeaf && topRight.isLeaf && bottomRight.isLeaf
+                && topLeft.val == bottomLeft.val && bottomLeft.val == topRight.val && topRight.val == bottomRight.val) {
             node.isLeaf = true;
+            node.val = topLeft.val;
         } else {
             node.topLeft = topLeft;
-            node.topRight = topRight;
             node.bottomLeft = bottomLeft;
+            node.topRight = topRight;
             node.bottomRight = bottomRight;
         }
         return node;
