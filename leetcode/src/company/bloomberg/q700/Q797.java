@@ -1,30 +1,29 @@
 package company.bloomberg.q700;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 public class Q797 {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         List<List<Integer>> res = new ArrayList<>();
-        helper(graph, res, new ArrayList<Integer>(), 0, graph.length - 1, new HashSet<Integer>());
+        List<Integer> list = new ArrayList<>();
+        list.add(0);
+        dfs(res, graph, list, 0, graph.length - 1, new boolean[graph.length]);
         return res;
     }
 
-    private void helper(int[][] graph, List<List<Integer>> res, ArrayList<Integer> list, int source, int target, HashSet<Integer> visited) {
-        list.add(source);
-        visited.add(source);
-        if (source == target) {
+    private void dfs(List<List<Integer>> res, int[][] graph, List<Integer> list, int start, int end, boolean[] visited) {
+        if (start == end) {
             res.add(new ArrayList<>(list));
-            list.remove(list.size() - 1);
-            visited.remove(source);
             return;
         }
-        for (int next : graph[source]) {
-            if (visited.contains(next)) continue;
-            helper(graph, res, list, next, target, visited);
+        for (int next : graph[start]) {
+            if (visited[next]) continue;
+            visited[next] = true;
+            list.add(next);
+            dfs(res, graph, list, next, end, visited);
+            visited[next] = false;
+            list.remove(list.size() - 1);
         }
-        list.remove(list.size() - 1);
-        visited.remove(source);
     }
 }

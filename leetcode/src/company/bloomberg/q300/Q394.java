@@ -6,8 +6,8 @@ public class Q394 {
     public String decodeString(String s) {
         StringBuilder builder = new StringBuilder();
         int count = 0;
-        Stack<Integer> countStack = new Stack<>();
         Stack<StringBuilder> builderStack = new Stack<>();
+        Stack<Integer> countStack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (Character.isDigit(c)) {
@@ -21,8 +21,8 @@ public class Q394 {
                 builderStack.push(builder);
                 builder = new StringBuilder();
             } else if (c == ']') {
-                StringBuilder temp = builderStack.pop();
                 count = countStack.pop();
+                StringBuilder temp = builderStack.pop();
                 for (int j = 0; j < count; j++) {
                     temp.append(builder);
                 }

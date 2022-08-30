@@ -10,15 +10,14 @@ public class Q140 {
 
     public List<String> wordBreak(String s, List<String> wordDict) {
         List<String> res = new ArrayList<>();
-        if (s.equals("")) {
+        if (s.length() == 0) {
             res.add("");
             return res;
         }
         if (map.containsKey(s)) return map.get(s);
         for (String word : wordDict) {
             if (s.startsWith(word)) {
-                String sub = s.substring(word.length());
-                List<String> nextList = wordBreak(sub, wordDict);
+                List<String> nextList = wordBreak(s.substring(word.length()), wordDict);
                 for (String s1 : nextList) {
                     if (s1.equals("")) {
                         res.add(word);

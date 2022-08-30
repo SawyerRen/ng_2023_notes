@@ -2,24 +2,22 @@ package company.bloomberg.q1400;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
-public class Q1472 {
+public class Q1742 {
     class BrowserHistory {
         List<String> history = new ArrayList<>();
-        int cur, right;
+        int cur = 0, right = 0;
 
         public BrowserHistory(String homepage) {
             history.add(homepage);
-            cur = 0;
-            right = 0;
         }
 
         public void visit(String url) {
-            cur++;
             if (cur == history.size() - 1) {
                 history.add(url);
+                cur++;
             } else {
+                cur++;
                 history.set(cur, url);
             }
             right = cur;
@@ -31,7 +29,7 @@ public class Q1472 {
         }
 
         public String forward(int steps) {
-            cur = Math.min(cur + steps, right);
+            cur = Math.min(right, cur + steps);
             return history.get(cur);
         }
     }

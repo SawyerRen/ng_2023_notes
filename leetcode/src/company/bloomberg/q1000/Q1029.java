@@ -1,25 +1,22 @@
 package company.bloomberg.q1000;
 
-import java.util.PriorityQueue;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Q1029 {
     public int twoCitySchedCost(int[][] costs) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> {
-            int diff1 = costs[a][0] - costs[a][1];
-            int diff2 = costs[b][0] - costs[b][1];
-            return diff1 - diff2;
-        });
+        List<int[]> list = new ArrayList<>();
         for (int i = 0; i < costs.length; i++) {
-            pq.add(i);
+            list.add(new int[]{i, costs[i][0] - costs[i][1]});
         }
+        list.sort((a, b) -> a[1] - b[1]);
         int res = 0;
-        for (int i = 0; i < costs.length / 2; i++) {
-            Integer index = pq.poll();
-            res += costs[index][0];
+        for (int i = 0; i < list.size() / 2; i++) {
+            res += costs[list.get(i)[0]][0];
         }
-        for (int i = 0; i < costs.length / 2; i++) {
-            Integer index = pq.poll();
-            res += costs[index][1];
+        for (int i = list.size() / 2; i < list.size(); i++) {
+            res += costs[list.get(i)[0]][1];
         }
         return res;
     }

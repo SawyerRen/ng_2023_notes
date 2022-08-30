@@ -1,9 +1,6 @@
 package company.bloomberg.q1200;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Q1244 {
     class Leaderboard {
@@ -15,23 +12,27 @@ public class Q1244 {
         }
 
         public void addScore(int playerId, int score) {
-            Integer oldScore = playerScoreMap.get(playerId);
-            if (oldScore != null) {
+            int oldScore = playerScoreMap.getOrDefault(playerId, 0);
+            int newScore = oldScore + score;
+            playerScoreMap.put(playerId, newScore);
+            if (scoreCountMap.containsKey(oldScore)) {
                 scoreCountMap.put(oldScore, scoreCountMap.get(oldScore) - 1);
             }
-            int newScore = oldScore == null ? score : oldScore + score;
-            playerScoreMap.put(playerId, newScore);
             scoreCountMap.put(newScore, scoreCountMap.getOrDefault(newScore, 0) + 1);
         }
 
         public int top(int K) {
             int res = 0;
             for (Integer score : scoreCountMap.keySet()) {
-                if (K <= 0) break;
-                for (int i = 0; i < scoreCountMap.get(score) && K > 0; i++) {
-                    res += score;
-                    K--;
+                int count = scoreCountMap.get(score);
+                if (K >= count) {
+                    res += score * count;
+                    K -= count;
+                } else {
+                    res += score * K;
+                    K = 0;
                 }
+                if (K == 0) break;
             }
             return res;
         }

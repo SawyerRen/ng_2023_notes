@@ -10,23 +10,8 @@ public class Q430 {
         public Node child;
     }
 
-    Node pre = null;
-
     public Node flatten(Node head) {
         if (head == null) return null;
-        if (pre != null) {
-            pre.next = head;
-            head.prev = pre;
-        }
-        pre = head;
-        Node next = head.next;
-        flatten(head.child);
-        head.child = null;
-        flatten(next);
-        return head;
-    }
-
-    public Node flatten1(Node head) {
         Stack<Node> stack = new Stack<>();
         Node cur = head;
         while (cur != null) {
