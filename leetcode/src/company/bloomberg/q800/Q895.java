@@ -8,26 +8,26 @@ public class Q895 {
     class FreqStack {
         Map<Integer, Integer> freqMap = new HashMap<>();
         Map<Integer, Stack<Integer>> stackMap = new HashMap<>();
-        int maxFreq = 0;
+        int max = 0;
 
         public FreqStack() {
 
         }
 
         public void push(int val) {
-            Integer freq = freqMap.getOrDefault(val, 0);
+            int freq = freqMap.getOrDefault(val, 0);
             freq++;
-            maxFreq = Math.max(maxFreq, freq);
             freqMap.put(val, freq);
             stackMap.putIfAbsent(freq, new Stack<>());
+            max = Math.max(freq, max);
             stackMap.get(freq).add(val);
         }
 
         public int pop() {
-            Stack<Integer> stack = stackMap.get(maxFreq);
+            Stack<Integer> stack = stackMap.get(max);
             Integer val = stack.pop();
-            freqMap.put(val, maxFreq - 1);
-            if (stack.isEmpty()) maxFreq--;
+            if (stack.isEmpty()) max--;
+            freqMap.put(val, freqMap.get(val) - 1);
             return val;
         }
     }

@@ -1,6 +1,6 @@
 package company.bloomberg.q300;
 
-public class Q387 {
+public class Q397 {
     public int firstUniqChar(String s) {
         int[] count = new int[26];
         for (char c : s.toCharArray()) {

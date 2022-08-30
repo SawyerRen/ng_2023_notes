@@ -30,8 +30,11 @@ public class Q117 {
             while (cur != null) {
                 if (cur.left != null) {
                     nextHead = nextHead == null ? cur.left : nextHead;
-                    if (cur.right != null) cur.left.next = cur.right;
-                    else cur.left.next = findNext(cur.next);
+                    if (cur.right != null) {
+                        cur.left.next = cur.right;
+                    } else {
+                        cur.left.next = findNext(cur.next);
+                    }
                 }
                 if (cur.right != null) {
                     nextHead = nextHead == null ? cur.right : nextHead;
@@ -44,11 +47,11 @@ public class Q117 {
         return root;
     }
 
-    private Node findNext(Node node) {
-        while (node != null) {
-            if (node.left != null) return node.left;
-            if (node.right != null) return node.right;
-            node = node.next;
+    private Node findNext(Node next) {
+        while (next != null) {
+            if (next.left != null) return next.left;
+            if (next.right != null) return next.right;
+            next = next.next;
         }
         return null;
     }

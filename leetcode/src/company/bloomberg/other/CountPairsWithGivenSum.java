@@ -10,8 +10,10 @@ public class CountPairsWithGivenSum {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
         int count = 0;
-        for (int num : nums) {
-            count += map.getOrDefault(targetSum - num, 0);
+        for (Integer num : map.keySet()) {
+            if (map.containsKey(targetSum - num)) {
+                count += map.get(targetSum - num);
+            }
             if (num + num == targetSum) count--;
         }
         return count / 2;

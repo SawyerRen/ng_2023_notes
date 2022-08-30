@@ -16,16 +16,13 @@ public class RemoveArrayInIndexRange {
         int n = nums.length;
         boolean[] remove = new boolean[n];
         for (int[] r : range) {
-            int start = r[0], end = r[1];
-            for (int i = start; i < end; i++) {
-                if (i >= n) break;
+            for (int i = r[0]; i <= r[1]; i++) {
                 remove[i] = true;
             }
         }
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
-            if (remove[i]) continue;
-            res.add(nums[i]);
+            if (!remove[i]) res.add(nums[i]);
         }
         return res;
     }

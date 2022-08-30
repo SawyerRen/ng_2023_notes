@@ -6,10 +6,10 @@ public class Q1614 {
         for (char c : s.toCharArray()) {
             if (c == '(') {
                 left++;
+                res = Math.max(res, left);
             } else if (c == ')') {
                 left--;
             }
-            res = Math.max(res, left);
         }
         return res;
     }

@@ -6,7 +6,7 @@ import java.util.List;
 public class Q78 {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        helper(res, new ArrayList<>(), nums, 0);
+        helper(res, new ArrayList<Integer>(), nums, 0);
         return res;
     }
 
