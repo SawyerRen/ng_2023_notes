@@ -3,24 +3,24 @@ package company.bloomberg.q0;
 public class Q75 {
     public void sortColors(int[] nums) {
         int left = 0, right = nums.length - 1;
-        int index = 0;
-        while (index <= right) {
-            if (nums[index] == 0) {
-                swap(nums, left, index);
+        int i = 0;
+        while (i <= right) {
+            if (nums[i] == 0) {
+                swap(nums, i, left);
+                i++;
                 left++;
-                index++;
-            } else if (nums[index] == 2) {
-                swap(nums, index, right);
+            } else if (nums[i] == 2) {
+                swap(nums, i, right);
                 right--;
             } else {
-                index++;
+                i++;
             }
         }
     }
 
     private void swap(int[] nums, int i, int j) {
-        int t = nums[i];
+        int n = nums[i];
         nums[i] = nums[j];
-        nums[j] = t;
+        nums[j] = n;
     }
 }

@@ -2,9 +2,8 @@ package company.bloomberg.q300;
 
 public class Q390 {
     public int lastRemaining(int n) {
+        int left = 1, right = n, inc = 1;
         boolean asc = true;
-        int left = 1, right = n;
-        int inc = 1;
         while (left < right) {
             if (asc) {
                 left += inc;

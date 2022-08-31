@@ -13,11 +13,9 @@ public class Q128 {
         for (int num : nums) {
             if (!set.contains(num - 1)) {
                 int count = 1;
-                set.remove(num);
                 while (set.contains(num + 1)) {
-                    set.remove(num + 1);
-                    num++;
                     count++;
+                    num++;
                 }
                 res = Math.max(res, count);
             }

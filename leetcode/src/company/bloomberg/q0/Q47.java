@@ -2,7 +2,6 @@ package company.bloomberg.q0;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 
 public class Q47 {
@@ -20,9 +19,9 @@ public class Q47 {
         }
         for (int i = 0; i < nums.length; i++) {
             if (visited[i]) continue;
-            if (i > 0 && nums[i] == nums[i - 1] && visited[i - 1]) continue;
-            list.add(nums[i]);
+            if (i > 0 && nums[i] == nums[i - 1] && !visited[i - 1]) continue;
             visited[i] = true;
+            list.add(nums[i]);
             helper(res, list, nums, visited);
             list.remove(list.size() - 1);
             visited[i] = false;

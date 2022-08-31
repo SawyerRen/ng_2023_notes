@@ -16,11 +16,10 @@ public class Q430 {
         Node cur = head;
         while (cur != null) {
             if (cur.child != null) {
-                Node next = cur.next;
-                if (next != null) stack.push(next);
+                if (cur.next != null) stack.push(cur.next);
                 cur.next = cur.child;
-                cur.next.prev = cur;
                 cur.child = null;
+                cur.next.prev = cur;
             } else if (cur.next == null && !stack.isEmpty()) {
                 cur.next = stack.pop();
                 cur.next.prev = cur;

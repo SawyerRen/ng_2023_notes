@@ -3,13 +3,15 @@ package company.bloomberg.q1400;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q1742 {
+public class Q1472 {
     class BrowserHistory {
         List<String> history = new ArrayList<>();
         int cur = 0, right = 0;
 
         public BrowserHistory(String homepage) {
             history.add(homepage);
+            cur = 0;
+            right = 0;
         }
 
         public void visit(String url) {

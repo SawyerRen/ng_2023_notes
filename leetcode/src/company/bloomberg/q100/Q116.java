@@ -23,15 +23,17 @@ public class Q116 {
 
     public Node connect(Node root) {
         if (root == null) return null;
-        Node left = root;
-        while (left.left != null) {
-            Node cur = left;
+        Node cur = root;
+        while (cur.left != null) {
+            Node nextCur = cur.left;
             while (cur != null) {
                 cur.left.next = cur.right;
-                if (cur.next != null) cur.right.next = cur.next.left;
+                if (cur.next != null) {
+                    cur.right.next = cur.next.left;
+                }
                 cur = cur.next;
             }
-            left = left.left;
+            cur = nextCur;
         }
         return root;
     }

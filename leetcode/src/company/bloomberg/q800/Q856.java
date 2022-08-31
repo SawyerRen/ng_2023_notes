@@ -4,8 +4,8 @@ import java.util.Stack;
 
 public class Q856 {
     public int scoreOfParentheses(String s) {
-        int score = 0;
         Stack<Integer> stack = new Stack<>();
+        int score = 0;
         for (char c : s.toCharArray()) {
             if (c == '(') {
                 stack.push(score);
