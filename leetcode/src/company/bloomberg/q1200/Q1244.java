@@ -4,43 +4,41 @@ import java.util.*;
 
 public class Q1244 {
     class Leaderboard {
-        Map<Integer, Integer> playerScoreMap = new HashMap<>();
-        TreeMap<Integer, Integer> scoreCountMap = new TreeMap<>(Comparator.reverseOrder());
+        TreeMap<Integer, Integer> scoreCount = new TreeMap<>(Comparator.reverseOrder());
+        HashMap<Integer, Integer> playerScore = new HashMap<>();
 
         public Leaderboard() {
 
         }
 
         public void addScore(int playerId, int score) {
-            int oldScore = playerScoreMap.getOrDefault(playerId, 0);
+            int oldScore = playerScore.getOrDefault(playerId, 0);
+            if (oldScore != 0) scoreCount.put(oldScore, scoreCount.get(oldScore) - 1);
             int newScore = oldScore + score;
-            playerScoreMap.put(playerId, newScore);
-            if (scoreCountMap.containsKey(oldScore)) {
-                scoreCountMap.put(oldScore, scoreCountMap.get(oldScore) - 1);
-            }
-            scoreCountMap.put(newScore, scoreCountMap.getOrDefault(newScore, 0) + 1);
+            playerScore.put(playerId, newScore);
+            scoreCount.put(newScore, scoreCount.getOrDefault(newScore, 0) + 1);
         }
 
         public int top(int K) {
-            int res = 0;
-            for (Integer score : scoreCountMap.keySet()) {
-                int count = scoreCountMap.get(score);
+            int sum = 0;
+            for (Integer score : scoreCount.keySet()) {
+                if (K == 0) break;
+                int count = scoreCount.get(score);
                 if (K >= count) {
-                    res += score * count;
+                    sum += score * count;
                     K -= count;
                 } else {
-                    res += score * K;
+                    sum += score * K;
                     K = 0;
                 }
-                if (K == 0) break;
             }
-            return res;
+            return sum;
         }
 
         public void reset(int playerId) {
-            Integer score = playerScoreMap.get(playerId);
-            playerScoreMap.remove(playerId);
-            scoreCountMap.put(score, scoreCountMap.get(score) - 1);
+            Integer score = playerScore.remove(playerId);
+            scoreCount.put(score, scoreCount.get(score) - 1);
         }
     }
+
 }

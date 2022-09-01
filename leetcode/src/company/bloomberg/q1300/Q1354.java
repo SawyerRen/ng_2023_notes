@@ -5,9 +5,7 @@ import java.util.PriorityQueue;
 
 public class Q1354 {
     public boolean isPossible(int[] target) {
-        if (target.length == 1) {
-            return target[0] == 1;
-        }
+        if (target.length == 1) return target[0] == 1;
         PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
         int sum = 0;
         for (int i : target) {
@@ -20,8 +18,8 @@ public class Q1354 {
             if (rest == 1) return true;
             int x = largest % rest;
             if (x == 0 || x == largest) return false;
-            sum = sum - largest + x;
             pq.add(x);
+            sum = sum - largest + x;
         }
         return true;
     }

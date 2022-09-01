@@ -13,7 +13,7 @@ public class Q3 {
                 set.remove(s.charAt(i++));
             }
             set.add(s.charAt(j));
-            res = Math.max(res, set.size());
+            res = Math.max(res, j - i + 1);
             j++;
         }
         return res;

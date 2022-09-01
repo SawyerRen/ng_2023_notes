@@ -10,7 +10,7 @@ public class Q140 {
 
     public List<String> wordBreak(String s, List<String> wordDict) {
         List<String> res = new ArrayList<>();
-        if (s.length() == 0) {
+        if (s.equals("")) {
             res.add("");
             return res;
         }
@@ -18,11 +18,11 @@ public class Q140 {
         for (String word : wordDict) {
             if (s.startsWith(word)) {
                 List<String> nextList = wordBreak(s.substring(word.length()), wordDict);
-                for (String s1 : nextList) {
-                    if (s1.equals("")) {
+                for (String next : nextList) {
+                    if (next.equals("")) {
                         res.add(word);
                     } else {
-                        res.add(word + " " + s1);
+                        res.add(word + " " + next);
                     }
                 }
             }

@@ -1,7 +1,6 @@
 package company.bloomberg.q1000;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Q1029 {

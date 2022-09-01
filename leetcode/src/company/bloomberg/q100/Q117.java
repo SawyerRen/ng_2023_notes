@@ -1,5 +1,7 @@
 package company.bloomberg.q100;
 
+import java.util.Random;
+
 public class Q117 {
     class Node {
         public int val;
@@ -47,11 +49,11 @@ public class Q117 {
         return root;
     }
 
-    private Node findNext(Node next) {
-        while (next != null) {
-            if (next.left != null) return next.left;
-            if (next.right != null) return next.right;
-            next = next.next;
+    private Node findNext(Node cur) {
+        while (cur != null) {
+            if (cur.left != null) return cur.left;
+            if (cur.right != null) return cur.right;
+            cur = cur.next;
         }
         return null;
     }

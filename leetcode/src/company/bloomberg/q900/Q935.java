@@ -7,12 +7,31 @@ public class Q935 {
     int mod = 1000000007;
 
     public int knightDialer(int n) {
+        int[] dp = new int[10];
+        Arrays.fill(dp, 1);
+        for (int i = 1; i < n; i++) {
+            int[] temp = new int[10];
+            for (int num = 0; num < 10; num++) {
+                for (int nextNum : next[num]) {
+                    temp[nextNum] = (temp[nextNum] + dp[num]) % mod;
+                }
+            }
+            dp = temp;
+        }
+        int res = 0;
+        for (int i = 0; i < 10; i++) {
+            res = (res + dp[i]) % mod;
+        }
+        return res;
+    }
+
+    public int knightDialer2(int n) {
         int[][] dp = new int[n][10];
         Arrays.fill(dp[0], 1);
         for (int i = 1; i < n; i++) {
-            for (int j = 0; j < 10; j++) {
-                for (int num : next[j]) {
-                    dp[i][num] = (dp[i][num] + dp[i - 1][j]) % mod;
+            for (int num = 0; num < 10; num++) {
+                for (int nextNum : next[num]) {
+                    dp[i][nextNum] = (dp[i][nextNum] + dp[i - 1][num]) % mod;
                 }
             }
         }
@@ -27,17 +46,17 @@ public class Q935 {
         int[][] memo = new int[n + 1][10];
         int res = 0;
         for (int i = 0; i < 10; i++) {
-            res = (res + helper(memo, n, i)) % mod;
+            res = (res + helper(memo, i, n)) % mod;
         }
         return res;
     }
 
-    private int helper(int[][] memo, int n, int i) {
+    private int helper(int[][] memo, int i, int n) {
         if (n == 1) return 1;
         if (memo[n][i] != 0) return memo[n][i];
         int res = 0;
         for (int num : next[i]) {
-            res = (res + helper(memo, n - 1, num)) % mod;
+            res = (res + helper(memo, num, n - 1)) % mod;
         }
         memo[n][i] = res;
         return res;

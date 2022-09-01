@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Q380 {
     class RandomizedSet {
-        Map<Integer, Integer> indexMap = new HashMap<>();
         List<Integer> list = new ArrayList<>();
+        Map<Integer, Integer> indexMap = new HashMap<>();
         Random random = new Random();
 
         public RandomizedSet() {
@@ -21,11 +21,14 @@ public class Q380 {
 
         public boolean remove(int val) {
             if (!indexMap.containsKey(val)) return false;
-            Integer index = indexMap.remove(val);
-            int lastVal = list.get(list.size() - 1);
-            list.set(index, lastVal);
-            indexMap.put(lastVal, index);
+            Integer index = indexMap.get(val);
+            if (index != list.size() - 1) {
+                Integer lastVal = list.get(list.size() - 1);
+                list.set(index, lastVal);
+                indexMap.put(lastVal, index);
+            }
             list.remove(list.size() - 1);
+            indexMap.remove(val);
             return true;
         }
 
@@ -33,5 +36,4 @@ public class Q380 {
             return list.get(random.nextInt(list.size()));
         }
     }
-
 }

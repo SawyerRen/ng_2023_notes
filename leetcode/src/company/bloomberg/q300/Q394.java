@@ -4,10 +4,10 @@ import java.util.Stack;
 
 public class Q394 {
     public String decodeString(String s) {
-        StringBuilder builder = new StringBuilder();
-        int count = 0;
         Stack<StringBuilder> builderStack = new Stack<>();
         Stack<Integer> countStack = new Stack<>();
+        int count = 0;
+        StringBuilder builder = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (Character.isDigit(c)) {
@@ -16,17 +16,18 @@ public class Q394 {
                     count = count * 10 + s.charAt(i + 1) - '0';
                     i++;
                 }
-                countStack.push(count);
             } else if (c == '[') {
                 builderStack.push(builder);
+                countStack.push(count);
                 builder = new StringBuilder();
+                count = 0;
             } else if (c == ']') {
                 count = countStack.pop();
-                StringBuilder temp = builderStack.pop();
+                StringBuilder pre = builderStack.pop();
                 for (int j = 0; j < count; j++) {
-                    temp.append(builder);
+                    pre.append(builder);
                 }
-                builder = temp;
+                builder = pre;
             } else {
                 builder.append(c);
             }

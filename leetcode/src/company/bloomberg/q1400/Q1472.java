@@ -2,6 +2,7 @@ package company.bloomberg.q1400;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class Q1472 {
     class BrowserHistory {
@@ -10,8 +11,6 @@ public class Q1472 {
 
         public BrowserHistory(String homepage) {
             history.add(homepage);
-            cur = 0;
-            right = 0;
         }
 
         public void visit(String url) {

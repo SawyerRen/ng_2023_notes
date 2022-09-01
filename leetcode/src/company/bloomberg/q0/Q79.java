@@ -16,10 +16,9 @@ public class Q79 {
     private boolean find(char[][] board, int i, int j, int m, int n, String word, int index) {
         if (index == word.length()) return true;
         if (i < 0 || i >= m || j < 0 || j >= n || word.charAt(index) != board[i][j]) return false;
-        board[i][j] = '#';
+        board[i][j] = '$';
         for (int[] dir : dirs) {
-            int x = i + dir[0], y = j + dir[1];
-            if (find(board, x, y, m, n, word, index + 1)) return true;
+            if (find(board, i + dir[0], j + dir[1], m, n, word, index + 1)) return true;
         }
         board[i][j] = word.charAt(index);
         return false;

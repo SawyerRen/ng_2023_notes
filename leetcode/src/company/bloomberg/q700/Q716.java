@@ -12,7 +12,7 @@ public class Q716 {
     }
 
     class MaxStack {
-        Deque<Node> deque = new LinkedList<>();
+        Deque<Node> list = new LinkedList<>();
         TreeMap<Integer, List<Node>> map = new TreeMap<>();
 
         public MaxStack() {
@@ -21,21 +21,21 @@ public class Q716 {
 
         public void push(int x) {
             Node node = new Node(x);
-            deque.addLast(node);
+            list.addLast(node);
             map.putIfAbsent(x, new ArrayList<>());
             map.get(x).add(node);
         }
 
         public int pop() {
-            Node node = deque.removeLast();
-            List<Node> list = map.get(node.val);
-            list.remove(list.size() - 1);
-            if (list.size() == 0) map.remove(node.val);
+            Node node = list.removeLast();
+            List<Node> nodes = map.get(node.val);
+            nodes.remove(nodes.size() - 1);
+            if (nodes.size() == 0) map.remove(node.val);
             return node.val;
         }
 
         public int top() {
-            return deque.peekLast().val;
+            return list.getLast().val;
         }
 
         public int peekMax() {
@@ -44,10 +44,10 @@ public class Q716 {
 
         public int popMax() {
             int max = map.lastKey();
-            List<Node> list = map.get(max);
-            Node remove = list.remove(list.size() - 1);
-            if (list.size() == 0) map.remove(max);
-            deque.remove(remove);
+            List<Node> nodes = map.get(max);
+            Node remove = nodes.remove(nodes.size() - 1);
+            if (nodes.size() == 0) map.remove(max);
+            list.remove(remove);
             return max;
         }
     }

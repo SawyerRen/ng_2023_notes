@@ -1,6 +1,5 @@
 package company.bloomberg.q400;
 
-import com.sun.org.apache.bcel.internal.generic.LNEG;
 import model.ListNode;
 
 public class Q445 {
@@ -24,14 +23,11 @@ public class Q445 {
     }
 
     private ListNode reverse(ListNode head) {
-        ListNode dummy = new ListNode();
-        ListNode cur = head;
-        while (cur != null) {
-            ListNode next = cur.next;
-            cur.next = dummy.next;
-            dummy.next = cur;
-            cur = next;
-        }
-        return dummy.next;
+        if (head == null || head.next == null) return head;
+        ListNode next = head.next;
+        ListNode newHead = reverse(next);
+        next.next = head;
+        head.next = null;
+        return newHead;
     }
 }

@@ -4,9 +4,9 @@ import java.util.*;
 
 public class Q381 {
     class RandomizedCollection {
+        Map<Integer, Set<Integer>> indexMap = new HashMap<>();
         List<Integer> list = new ArrayList<>();
         Random random = new Random();
-        Map<Integer, Set<Integer>> indexMap = new HashMap<>();
 
         public RandomizedCollection() {
 
@@ -23,11 +23,11 @@ public class Q381 {
             if (!indexMap.containsKey(val) || indexMap.get(val).size() == 0) return false;
             Integer index = indexMap.get(val).iterator().next();
             indexMap.get(val).remove(index);
-            int lastVal = list.get(list.size() - 1);
+            Integer lastVal = list.get(list.size() - 1);
             list.set(index, lastVal);
-            list.remove(list.size() - 1);
             indexMap.get(lastVal).add(index);
-            indexMap.get(lastVal).remove(list.size());
+            indexMap.get(lastVal).remove(list.size() - 1);
+            list.remove(list.size() - 1);
             return true;
         }
 

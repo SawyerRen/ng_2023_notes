@@ -24,16 +24,16 @@ public class Q428 {
         // Encodes a tree to a single string.
         public String serialize(Node root) {
             StringBuilder builder = new StringBuilder();
-            _serialize(builder, root);
+            _ser(builder, root);
             return builder.toString();
         }
 
-        private void _serialize(StringBuilder builder, Node root) {
+        private void _ser(StringBuilder builder, Node root) {
             if (root == null) return;
             builder.append(root.val).append(",");
             builder.append(root.children.size()).append(",");
             for (Node child : root.children) {
-                _serialize(builder, child);
+                _ser(builder, child);
             }
         }
 
@@ -46,13 +46,13 @@ public class Q428 {
 
         private Node _des(Queue<String> queue) {
             if (queue.isEmpty()) return null;
-            int val = Integer.parseInt(queue.poll());
-            int size = Integer.parseInt(queue.poll());
-            Node node = new Node(val, new ArrayList<>());
-            for (int i = 0; i < size; i++) {
-                node.children.add(_des(queue));
+            String val = queue.poll();
+            String size = queue.poll();
+            Node root = new Node(Integer.parseInt(val), new ArrayList<>());
+            for (int i = 0; i < Integer.parseInt(size); i++) {
+                root.children.add(_des(queue));
             }
-            return node;
+            return root;
         }
     }
 }

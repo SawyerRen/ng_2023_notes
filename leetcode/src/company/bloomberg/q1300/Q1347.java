@@ -7,10 +7,10 @@ public class Q1347 {
             count[s.charAt(i) - 'a']++;
             count[t.charAt(i) - 'a']--;
         }
-        int diffCount = 0;
+        int diff = 0;
         for (int i : count) {
-            diffCount += Math.abs(i);
+            diff += Math.abs(i);
         }
-        return diffCount / 2;
+        return diff / 2;
     }
 }

@@ -3,8 +3,8 @@ package company.bloomberg.q200;
 public class Q289 {
     int living = 1;
     int dead = 0;
-    int living2Dead = 2;
-    int dead2Living = 3;
+    int living2Dead = 3;
+    int dead2Living = 4;
 
     public void gameOfLife(int[][] board) {
         int m = board.length, n = board[0].length;
@@ -21,11 +21,8 @@ public class Q289 {
         }
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (board[i][j] == dead2Living) {
-                    board[i][j] = living;
-                } else if (board[i][j] == living2Dead) {
-                    board[i][j] = dead;
-                }
+                if (board[i][j] == living2Dead) board[i][j] = dead;
+                else if (board[i][j] == dead2Living) board[i][j] = living;
             }
         }
     }

@@ -6,36 +6,35 @@ import java.util.List;
 public class Q1570 {
     class Node {
         int index;
-        int value;
+        int val;
 
-        public Node(int index, int value) {
+        public Node(int index, int val) {
             this.index = index;
-            this.value = value;
+            this.val = val;
         }
     }
 
     class SparseVector {
-        List<Node> nodes = new ArrayList<>();
+        List<Node> list = new ArrayList<>();
 
         SparseVector(int[] nums) {
             for (int i = 0; i < nums.length; i++) {
-                if (nums[i] != 0) {
-                    nodes.add(new Node(i, nums[i]));
-                }
+                if (nums[i] != 0) list.add(new Node(i, nums[i]));
             }
         }
 
         // Return the dotProduct of two sparse vectors
         public int dotProduct(SparseVector vec) {
-            List<Node> nodes2 = vec.nodes;
-            int i = 0, j = 0;
-            int res = 0;
-            while (i < nodes.size() && j < nodes2.size()) {
-                if (nodes.get(i).index == nodes2.get(j).index) {
-                    res += nodes.get(i).value * nodes2.get(j).value;
+            int res = 0, i = 0, j = 0;
+            List<Node> list2 = vec.list;
+            while (i < list.size() && j < list2.size()) {
+                Node node1 = list.get(i);
+                Node node2 = list2.get(j);
+                if (node1.index == node2.index) {
+                    res += node1.val * node2.val;
                     i++;
                     j++;
-                } else if (nodes.get(i).index < nodes2.get(j).index) {
+                } else if (node1.index < node2.index) {
                     i++;
                 } else {
                     j++;
