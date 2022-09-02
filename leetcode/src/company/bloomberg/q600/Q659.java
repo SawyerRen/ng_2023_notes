@@ -21,14 +21,15 @@ public class Q659 {
             return a.end - b.end;
         });
         for (int num : nums) {
-            while (!pq.isEmpty() && pq.peek().end + 1 < num) {
-                Interval cur = pq.poll();
-                if (cur.length < 3) return false;
+            while (!pq.isEmpty() && num > pq.peek().end + 1) {
+                Interval poll = pq.poll();
+                if (poll.length < 3) return false;
             }
             if (pq.isEmpty() || pq.peek().end == num) {
                 pq.add(new Interval(num, num));
             } else {
-                pq.add(new Interval(pq.poll().start, num));
+                Interval poll = pq.poll();
+                pq.add(new Interval(poll.start, poll.end + 1));
             }
         }
         while (!pq.isEmpty()) {

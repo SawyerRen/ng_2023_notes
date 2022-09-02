@@ -1,6 +1,7 @@
 package company.bloomberg.q700;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.TreeMap;
 
 public class Q716 {
     class Node {
@@ -12,8 +13,8 @@ public class Q716 {
     }
 
     class MaxStack {
-        Deque<Node> list = new LinkedList<>();
-        TreeMap<Integer, List<Node>> map = new TreeMap<>();
+        TreeMap<Integer, LinkedList<Node>> treeMap = new TreeMap<>();
+        LinkedList<Node> nodes = new LinkedList<>();
 
         public MaxStack() {
 
@@ -21,33 +22,33 @@ public class Q716 {
 
         public void push(int x) {
             Node node = new Node(x);
-            list.addLast(node);
-            map.putIfAbsent(x, new ArrayList<>());
-            map.get(x).add(node);
+            nodes.addLast(node);
+            treeMap.putIfAbsent(x, new LinkedList<>());
+            treeMap.get(x).addLast(node);
         }
 
         public int pop() {
-            Node node = list.removeLast();
-            List<Node> nodes = map.get(node.val);
-            nodes.remove(nodes.size() - 1);
-            if (nodes.size() == 0) map.remove(node.val);
+            Node node = nodes.removeLast();
+            LinkedList<Node> list = treeMap.get(node.val);
+            list.removeLast();
+            if (list.size() == 0) treeMap.remove(node.val);
             return node.val;
         }
 
         public int top() {
-            return list.getLast().val;
+            return nodes.getLast().val;
         }
 
         public int peekMax() {
-            return map.lastKey();
+            return treeMap.lastKey();
         }
 
         public int popMax() {
-            int max = map.lastKey();
-            List<Node> nodes = map.get(max);
-            Node remove = nodes.remove(nodes.size() - 1);
-            if (nodes.size() == 0) map.remove(max);
-            list.remove(remove);
+            int max = peekMax();
+            LinkedList<Node> list = treeMap.get(max);
+            Node node = list.removeLast();
+            nodes.remove(node);
+            if (list.size() == 0) treeMap.remove(max);
             return max;
         }
     }

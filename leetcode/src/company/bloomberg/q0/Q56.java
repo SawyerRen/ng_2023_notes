@@ -17,7 +17,7 @@ public class Q56 {
             list.add(new int[]{start, end});
         }
         int[][] res = new int[list.size()][2];
-        for (int i = 0; i < res.length; i++) {
+        for (int i = 0; i < list.size(); i++) {
             res[i] = list.get(i);
         }
         return res;

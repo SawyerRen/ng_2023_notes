@@ -18,17 +18,18 @@ public class Q253 {
         return res;
     }
 
-    int getMeetingRoom(int[][] intervals, int time) {
+    int getMeetingRoomAtT(int[][] intervals, int time) {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         PriorityQueue<Integer> pq = new PriorityQueue<>();
-        int i = intervals[0][0];
+        int start = intervals[0][0];
         int index = 0;
-        while (i <= time) {
-            while (!pq.isEmpty() && pq.peek() <= i) pq.poll();
-            while (index < intervals.length && intervals[index][0] == i) {
+        for (int i = start; i <= time; i++) {
+            while (!pq.isEmpty() && i >= pq.peek()) {
+                pq.poll();
+            }
+            while (index < intervals.length && i == intervals[i][0]) {
                 pq.add(intervals[index++][1]);
             }
-            i++;
         }
         return pq.size();
     }

@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class Q146 {
     class LRUCache {
-        DoubleList list = new DoubleList();
         Map<Integer, Node> map = new HashMap<>();
+        DLL list = new DLL();
         int capacity;
 
         public LRUCache(int capacity) {
@@ -16,7 +16,7 @@ public class Q146 {
         public int get(int key) {
             if (!map.containsKey(key)) return -1;
             Node node = map.get(key);
-            put(node.key, node.val);
+            put(key, node.val);
             return node.val;
         }
 
@@ -36,12 +36,15 @@ public class Q146 {
         }
     }
 
-    class DoubleList {
-        Node head = new Node();
-        Node tail = new Node();
+    class DLL {
+        Node head;
+        Node tail;
         int size;
 
-        public DoubleList() {
+        public DLL() {
+            head = new Node();
+            tail = new Node();
+            size = 0;
             head.next = tail;
             tail.pre = head;
         }
@@ -62,8 +65,8 @@ public class Q146 {
 
         int removeLast() {
             Node node = tail.pre;
-            node.pre.next = tail;
-            tail.pre = node.pre;
+            node.next.pre = node.pre;
+            node.pre.next = node.next;
             size--;
             return node.key;
         }

@@ -21,7 +21,7 @@ public class Q380 {
 
         public boolean remove(int val) {
             if (!indexMap.containsKey(val)) return false;
-            Integer index = indexMap.get(val);
+            int index = indexMap.get(val);
             if (index != list.size() - 1) {
                 Integer lastVal = list.get(list.size() - 1);
                 list.set(index, lastVal);

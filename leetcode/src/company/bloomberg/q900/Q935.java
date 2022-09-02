@@ -19,8 +19,8 @@ public class Q935 {
             dp = temp;
         }
         int res = 0;
-        for (int i = 0; i < 10; i++) {
-            res = (res + dp[i]) % mod;
+        for (int i : dp) {
+            res = (res + i) % mod;
         }
         return res;
     }
@@ -36,8 +36,8 @@ public class Q935 {
             }
         }
         int res = 0;
-        for (int i = 0; i < 10; i++) {
-            res = (res + dp[n - 1][i]) % mod;
+        for (int i : dp[n - 1]) {
+            res = (res + i) % mod;
         }
         return res;
     }
@@ -55,8 +55,8 @@ public class Q935 {
         if (n == 1) return 1;
         if (memo[n][i] != 0) return memo[n][i];
         int res = 0;
-        for (int num : next[i]) {
-            res = (res + helper(memo, num, n - 1)) % mod;
+        for (int nextNum : next[i]) {
+            res = (res + helper(memo, nextNum, n - 1)) % mod;
         }
         memo[n][i] = res;
         return res;

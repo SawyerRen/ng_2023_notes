@@ -70,7 +70,7 @@ public class Q173 {
         public int next() {
             if (!hasNext()) return -1;
             TreeNode pop = stack.pop();
-            if (!stack.isEmpty() && pop.equals(stack.peek())) {
+            if (!stack.isEmpty() && pop.equals(stack.peek().left)) {
                 push(stack, pop.right);
             }
             return pop.val;

@@ -6,11 +6,11 @@ import java.util.Map;
 
 public class Q1331 {
     public int[] arrayRankTransform(int[] arr) {
-        int[] A = Arrays.copyOf(arr, arr.length);
-        Arrays.sort(A);
+        int[] temp = Arrays.copyOf(arr, arr.length);
+        Arrays.sort(temp);
         Map<Integer, Integer> map = new HashMap<>();
-        for (int num : A) {
-            map.putIfAbsent(num, map.size() + 1);
+        for (int i : temp) {
+            if (!map.containsKey(i)) map.put(i, map.size() + 1);
         }
         int[] res = new int[arr.length];
         for (int i = 0; i < res.length; i++) {

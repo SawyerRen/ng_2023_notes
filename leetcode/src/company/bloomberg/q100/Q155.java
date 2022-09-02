@@ -1,40 +1,32 @@
 package company.bloomberg.q100;
 
+import java.util.Stack;
+
 public class Q155 {
-    class Node {
-        int val;
-        int min;
-        Node next;
-
-        public Node(int val, int min, Node next) {
-            this.val = val;
-            this.min = min;
-            this.next = next;
-        }
-    }
-
     class MinStack {
-        Node head;
+        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> minStack = new Stack<>();
 
         public MinStack() {
 
         }
 
         public void push(int val) {
-            if (head == null) head = new Node(val, val, null);
-            else head = new Node(val, Math.min(val, head.min), head);
+            stack.push(val);
+            if (minStack.isEmpty() || val <= minStack.peek()) minStack.push(val);
         }
 
         public void pop() {
-            head = head.next;
+            int val = stack.pop();
+            if (val == minStack.peek()) minStack.pop();
         }
 
         public int top() {
-            return head.val;
+            return stack.peek();
         }
 
         public int getMin() {
-            return head.min;
+            return minStack.peek();
         }
     }
 }

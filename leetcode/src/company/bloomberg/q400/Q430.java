@@ -22,19 +22,23 @@ public class Q430 {
         }
         pre = head;
         Node next = head.next;
-        flatten(head.child);
-        head.child = null;
-        flatten(next);
+        if (head.child != null) {
+            flatten(head.child);
+            head.child = null;
+        }
+        if (head.next != null) {
+            flatten(next);
+        }
         return head;
     }
 
     public Node flatten1(Node head) {
         if (head == null) return null;
-        Stack<Node> stack = new Stack<>();
         Node cur = head;
+        Stack<Node> stack = new Stack<>();
         while (cur != null) {
             if (cur.child != null) {
-                if (cur.next != null) stack.push(cur.next);
+                if (cur.next != null) stack.add(cur.next);
                 cur.next = cur.child;
                 cur.child = null;
                 cur.next.prev = cur;
@@ -47,20 +51,25 @@ public class Q430 {
         return head;
     }
 
-    Node bfs(Node node) {
-        if (node == null) return null;
+    public Node bfs(Node head) {
+        if (head == null) return null;
+        Node dummy = new Node();
+        Node cur = dummy;
         Queue<Node> queue = new LinkedList<>();
-        queue.add(node);
-        Node cur = node;
+        queue.add(cur);
         while (!queue.isEmpty()) {
             Node poll = queue.poll();
             while (poll != null) {
                 cur.next = poll;
+                poll.prev = cur;
                 cur = cur.next;
-                if (poll.child != null) queue.add(poll.child);
+                if (poll.child != null) {
+                    queue.add(poll.child);
+                    poll.child = null;
+                }
                 poll = poll.next;
             }
         }
-        return node;
+        return dummy.next;
     }
 }

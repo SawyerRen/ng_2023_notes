@@ -7,23 +7,23 @@ public class Q797 {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
-        list.add(0);
-        dfs(res, list, graph, 0, graph.length - 1, new boolean[graph.length]);
+//        list.add(0);
+        dfs(res, list, graph, 0, graph.length - 1);
         return res;
     }
 
-    private void dfs(List<List<Integer>> res, List<Integer> list, int[][] graph, int start, int end, boolean[] visited) {
-        if (end == start) {
+    private void dfs(List<List<Integer>> res, List<Integer> list, int[][] graph, int start, int end) {
+        list.add(start);
+        if (start == end) {
             res.add(new ArrayList<>(list));
+            list.remove(list.size() - 1);
             return;
         }
         for (int next : graph[start]) {
-            if (visited[next]) continue;
-            list.add(next);
-            visited[next] = true;
-            dfs(res, list, graph, next, end, visited);
-            list.remove(list.size() - 1);
-            visited[next] = false;
+//            list.add(next);
+            dfs(res, list, graph, next, end);
+//            list.remove(list.size() - 1);
         }
+        list.remove(list.size() - 1);
     }
 }

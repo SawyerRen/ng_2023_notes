@@ -12,11 +12,8 @@ public class Q450 {
         } else {
             if (root.left == null) return root.right;
             if (root.right == null) return root.left;
-
             TreeNode right = root.right;
-            while (right.left != null) {
-                right = right.left;
-            }
+            while (right.left != null) right = right.left;
             root.val = right.val;
             root.right = deleteNode(root.right, root.val);
         }

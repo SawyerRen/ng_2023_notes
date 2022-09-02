@@ -2,7 +2,6 @@ package company.bloomberg.q1400;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class Q1472 {
     class BrowserHistory {
@@ -25,12 +24,12 @@ public class Q1472 {
         }
 
         public String back(int steps) {
-            cur = Math.max(0, cur - steps);
+            cur = Math.max(cur - steps, 0);
             return history.get(cur);
         }
 
         public String forward(int steps) {
-            cur = Math.min(right, cur + steps);
+            cur = Math.min(cur + steps, right);
             return history.get(cur);
         }
     }

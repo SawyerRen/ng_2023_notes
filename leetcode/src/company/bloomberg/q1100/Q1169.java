@@ -24,9 +24,7 @@ public class Q1169 {
             for (String[] t2 : list) {
                 int time1 = Integer.parseInt(t1[1]);
                 int time2 = Integer.parseInt(t2[1]);
-                String city1 = t1[3];
-                String city2 = t2[3];
-                if (Math.abs(time1 - time2) <= 60 && !city1.equals(city2)) {
+                if (Math.abs(time1 - time2) <= 60 && !t1[3].equals(t2[3])) {
                     res.add(t);
                     break;
                 }

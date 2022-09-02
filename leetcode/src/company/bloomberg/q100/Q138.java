@@ -21,8 +21,9 @@ public class Q138 {
         Node cur = head;
         while (cur != null) {
             Node next = cur.next;
-            cur.next = new Node(cur.val);
-            cur.next.next = next;
+            Node node = new Node(cur.val);
+            cur.next = node;
+            node.next = next;
             cur = next;
         }
         cur = head;
@@ -33,16 +34,16 @@ public class Q138 {
             cur = cur.next.next;
         }
         cur = head;
-        Node res = cur.next;
+        Node copyHead = head.next;
         while (cur != null) {
             Node next = cur.next.next;
             if (next != null) {
                 cur.next.next = next.next;
             }
             cur.next = next;
-            cur = next;
+            cur = cur.next;
         }
-        return res;
+        return copyHead;
     }
 
     public Node copyRandomList1(Node head) {

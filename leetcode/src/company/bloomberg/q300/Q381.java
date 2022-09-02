@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Q381 {
     class RandomizedCollection {
-        Map<Integer, Set<Integer>> indexMap = new HashMap<>();
         List<Integer> list = new ArrayList<>();
+        Map<Integer, Set<Integer>> indexMap = new HashMap<>();
         Random random = new Random();
 
         public RandomizedCollection() {
@@ -21,7 +21,7 @@ public class Q381 {
 
         public boolean remove(int val) {
             if (!indexMap.containsKey(val) || indexMap.get(val).size() == 0) return false;
-            Integer index = indexMap.get(val).iterator().next();
+            int index = indexMap.get(val).iterator().next();
             indexMap.get(val).remove(index);
             Integer lastVal = list.get(list.size() - 1);
             list.set(index, lastVal);
