@@ -18,11 +18,11 @@ public class Q528 {
         }
 
         public int pickIndex() {
-            int index = random.nextInt(preSum[preSum.length - 1]) + 1;
+            int val = random.nextInt(preSum[preSum.length - 1]) + 1;
             int left = 0, right = preSum.length - 1;
             while (left < right) {
                 int mid = left + (right - left) / 2;
-                if (preSum[mid] >= index) right = mid;
+                if (preSum[mid] >= val) right = mid;
                 else left = mid + 1;
             }
             return left;

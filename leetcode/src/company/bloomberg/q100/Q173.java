@@ -71,7 +71,7 @@ public class Q173 {
             if (!hasNext()) return -1;
             TreeNode pop = stack.pop();
             if (!stack.isEmpty() && pop.equals(stack.peek().left)) {
-                push(stack, pop.right);
+                push(stack, stack.peek().right);
             }
             return pop.val;
         }

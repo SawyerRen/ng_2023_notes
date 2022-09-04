@@ -4,10 +4,10 @@ import java.util.TreeMap;
 
 public class Q729 {
     class MyCalendar {
-        TreeMap<Integer, Integer> map;
+        TreeMap<Integer, Integer> map = new TreeMap<>();
 
         public MyCalendar() {
-            map = new TreeMap<>();
+
         }
 
         public boolean book(int start, int end) {

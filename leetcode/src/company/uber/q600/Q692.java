@@ -1,6 +1,9 @@
 package company.uber.q600;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Q692 {
     public List<String> topKFrequent(String[] words, int k) {
@@ -8,17 +11,24 @@ public class Q692 {
         for (String word : words) {
             map.put(word, map.getOrDefault(word, 0) + 1);
         }
-        LinkedList<String> res = new LinkedList<>();
-        PriorityQueue<String> pq = new PriorityQueue<>((a, b) -> {
-            if (map.get(a).equals(map.get(b))) return b.compareTo(a);
-            return map.get(a) - map.get(b);
-        });
+        List[] lists = new List[words.length + 1];
         for (String word : map.keySet()) {
-            pq.add(word);
-            if (pq.size() > k) pq.poll();
+            Integer count = map.get(word);
+            if (lists[count] == null) lists[count] = new ArrayList<String>();
+            lists[count].add(word);
         }
-        while (!pq.isEmpty()) {
-            res.addFirst(pq.poll());
+        List<String> res = new ArrayList<>();
+        for (int i = lists.length - 1; i >= 0; i--) {
+            if (k == 0) break;
+            if (lists[i] != null) {
+                List<String> list = lists[i];
+                list.sort(String::compareTo);
+                for (String word : list) {
+                    res.add(word);
+                    k--;
+                    if (k == 0) break;
+                }
+            }
         }
         return res;
     }

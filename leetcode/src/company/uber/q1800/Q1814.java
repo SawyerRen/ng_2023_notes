@@ -5,21 +5,21 @@ import java.util.Map;
 
 public class Q1814 {
     public int countNicePairs(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
+        int mod = 1000000007;
+        long res = 0;
+        Map<Long, Long> map = new HashMap<>();
         for (int num : nums) {
-            int rev = 0;
+            long rev = 0;
             int temp = num;
             while (temp != 0) {
                 rev = rev * 10 + temp % 10;
                 temp /= 10;
             }
-            int diff = num - rev;
-            map.put(diff, map.getOrDefault(diff, 0) + 1);
-        }
-        int mod = 1000000007;
-        long res = 0;
-        for (Integer count : map.values()) {
-            res = (res + (long) count * (count - 1) / 2) % mod;
+            long diff = num - rev;
+            if (map.containsKey(diff)) {
+                res = (res + map.get(diff)) % mod;
+            }
+            map.put(diff, map.getOrDefault(diff, 0L) + 1);
         }
         return (int) res;
     }

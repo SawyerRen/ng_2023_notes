@@ -1,11 +1,12 @@
 package company.uber.q700;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
 public class Q759 {
-    class Interval {
+    private class Interval {
         public int start;
         public int end;
 
@@ -27,8 +28,9 @@ public class Q759 {
         int end = schedule.get(pq.peek()[0]).get(pq.peek()[1]).end;
         while (!pq.isEmpty()) {
             int[] poll = pq.poll();
-            if (schedule.get(poll[0]).get(poll[1]).start > end) {
-                res.add(new Interval(end, schedule.get(poll[0]).get(poll[1]).start));
+            int start = schedule.get(poll[0]).get(poll[1]).start;
+            if (start > end) {
+                res.add(new Interval(end, start));
             }
             end = Math.max(end, schedule.get(poll[0]).get(poll[1]).end);
             if (poll[1] + 1 < schedule.get(poll[0]).size()) {

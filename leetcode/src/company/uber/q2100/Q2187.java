@@ -2,9 +2,9 @@ package company.uber.q2100;
 
 public class Q2187 {
     public long minimumTime(int[] time, int totalTrips) {
-        long left = 1, right = time[0];
+        long left = 1, right = 0;
         for (int t : time) {
-            right = Math.max(right, t);
+            right = Math.max(t, right);
         }
         right = right * totalTrips + 1;
         while (left < right) {

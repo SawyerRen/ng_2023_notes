@@ -15,16 +15,17 @@ public class Q815 {
         queue.add(source);
         Set<Integer> visitedStops = new HashSet<>();
         Set<Integer> visitedRoutes = new HashSet<>();
+        visitedStops.add(source);
         int res = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                Integer poll = queue.poll();
-                if (poll == target) return res;
-                for (Integer route : stop2Route.get(poll)) {
-                    if (visitedRoutes.contains(route)) continue;
-                    visitedRoutes.add(route);
-                    for (int nextStop : routes[route]) {
+                Integer stop = queue.poll();
+                if (stop == target) return res;
+                for (Integer nextRoute : stop2Route.get(stop)) {
+                    if (visitedRoutes.contains(nextRoute)) continue;
+                    visitedRoutes.add(nextRoute);
+                    for (int nextStop : routes[nextRoute]) {
                         if (visitedStops.contains(nextStop)) continue;
                         visitedStops.add(nextStop);
                         queue.add(nextStop);

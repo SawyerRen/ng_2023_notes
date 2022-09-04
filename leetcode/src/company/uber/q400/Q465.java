@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Q465 {
     public int minTransfers(int[][] transactions) {
-        int[] debts = getDebts(transactions);
+        int[] debts = buildDebts(transactions);
         return helper(debts, 0);
     }
 
@@ -23,11 +23,11 @@ public class Q465 {
         return res;
     }
 
-    private int[] getDebts(int[][] transactions) {
+    private int[] buildDebts(int[][] transactions) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int[] t : transactions) {
-            map.put(t[0], map.getOrDefault(t[0], 0) + t[2]);
-            map.put(t[1], map.getOrDefault(t[1], 0) - t[2]);
+            map.put(t[0], map.getOrDefault(t[0], 0) - t[2]);
+            map.put(t[1], map.getOrDefault(t[1], 0) + t[2]);
         }
         int[] debts = new int[map.size()];
         int index = 0;

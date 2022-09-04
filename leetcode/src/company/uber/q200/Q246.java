@@ -13,10 +13,9 @@ public class Q246 {
         map.put('9', '6');
         int i = 0, j = num.length() - 1;
         while (i <= j) {
-            char c1 = num.charAt(i);
-            char c2 = num.charAt(j);
-            if (!map.containsKey(c1) || !map.containsKey(c2)) return false;
-            if (map.get(c1) != c2) return false;
+            char lc = num.charAt(i);
+            char rc = num.charAt(j);
+            if (!map.containsKey(lc) || map.get(lc) != rc) return false;
             i++;
             j--;
         }

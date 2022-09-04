@@ -2,8 +2,10 @@ package company.uber.q1800;
 
 public class Q1842 {
     public String nextPalindrome(String num) {
-        int[] nums = new int[num.length() / 2];
-        for (int i = 0; i < nums.length; i++) {
+        int len = num.length();
+        boolean even = len % 2 == 0;
+        int[] nums = new int[len / 2];
+        for (int i = 0; i < len / 2; i++) {
             nums[i] = num.charAt(i) - '0';
         }
         if (!next(nums)) return "";
@@ -11,11 +13,8 @@ public class Q1842 {
         for (int i : nums) {
             builder.append(i);
         }
-        if (num.length() % 2 == 0) {
-            return builder.toString() + builder.reverse().toString();
-        } else {
-            return builder.toString() + num.charAt(num.length() / 2) + builder.reverse().toString();
-        }
+        if (even) return builder.toString() + builder.reverse().toString();
+        else return builder.toString() + num.charAt(len / 2) + builder.reverse().toString();
     }
 
     private boolean next(int[] nums) {
@@ -25,17 +24,19 @@ public class Q1842 {
         int r = nums.length - 1;
         while (nums[l] >= nums[r]) r--;
         swap(nums, l, r);
-        l++;
-        r = nums.length - 1;
-        while (l < r) {
-            swap(nums, l++, r--);
-        }
+        reverse(nums, l + 1, nums.length - 1);
         return true;
     }
 
+    private void reverse(int[] nums, int i, int j) {
+        while (i < j) {
+            swap(nums, i++, j--);
+        }
+    }
+
     private void swap(int[] nums, int l, int r) {
-        int t = nums[l];
+        int n = nums[l];
         nums[l] = nums[r];
-        nums[r] = t;
+        nums[r] = n;
     }
 }

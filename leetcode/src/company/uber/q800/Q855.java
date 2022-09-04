@@ -4,22 +4,18 @@ import java.util.PriorityQueue;
 
 public class Q855 {
     class ExamRoom {
-        int n;
         PriorityQueue<int[]> pq;
+        int n;
 
-        int calDist(int[] interval) {
-            if (interval[0] == -1) {
-                return interval[1];
-            } else if (interval[1] == n) {
-                return n - 1 - interval[0];
-            } else {
-                return (interval[1] - interval[0]) / 2;
-            }
+        private int calDist(int[] interval) {
+            if (interval[0] == -1) return interval[1];
+            else if (interval[1] == n) return n - interval[0] - 1;
+            return (interval[1] - interval[0]) / 2;
         }
 
         public ExamRoom(int n) {
             this.n = n;
-            this.pq = new PriorityQueue<>((a, b) -> {
+            pq = new PriorityQueue<>((a, b) -> {
                 int d1 = calDist(a);
                 int d2 = calDist(b);
                 if (d1 == d2) return a[0] - b[0];

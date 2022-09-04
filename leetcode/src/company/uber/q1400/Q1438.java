@@ -5,9 +5,9 @@ import java.util.LinkedList;
 
 public class Q1438 {
     public int longestSubarray(int[] nums, int limit) {
-        int i = 0, j = 0, res = 0;
-        Deque<Integer> minQueue = new LinkedList<>();
         Deque<Integer> maxQueue = new LinkedList<>();
+        Deque<Integer> minQueue = new LinkedList<>();
+        int i = 0, j = 0, res = 0;
         while (j < nums.length) {
             while (!maxQueue.isEmpty() && maxQueue.getLast() < nums[j]) {
                 maxQueue.removeLast();

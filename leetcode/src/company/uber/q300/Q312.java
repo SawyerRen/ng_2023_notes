@@ -2,25 +2,23 @@ package company.uber.q300;
 
 public class Q312 {
     public int maxCoins(int[] nums) {
-        int n = nums.length + 2;
-        int[] temp = new int[n];
-        temp[0] = temp[n - 1] = 1;
-        for (int i = 0; i < nums.length; i++) {
-            temp[i + 1] = nums[i];
-        }
-        int[][] memo = new int[n][n];
-        return helper(memo, temp, 0, n - 1);
+        int[] arr = new int[nums.length + 2];
+        arr[0] = 1;
+        arr[arr.length - 1] = 1;
+        System.arraycopy(nums, 0, arr, 1, nums.length);
+        int[][] dp = new int[arr.length][arr.length];
+        return helper(dp, arr, 0, arr.length - 1);
     }
 
-    private int helper(int[][] memo, int[] nums, int left, int right) {
+    private int helper(int[][] dp, int[] nums, int left, int right) {
         if (left > right) return 0;
-        if (memo[left][right] != 0) return memo[left][right];
+        if (dp[left][right] != 0) return dp[left][right];
         int res = 0;
         for (int i = left + 1; i < right; i++) {
-            res = Math.max(res, helper(memo, nums, left, i) + helper(memo, nums, i, right)
-                    + nums[left] * nums[i] * nums[right]);
+            res = Math.max(res, nums[left] * nums[i] * nums[right] + helper(dp, nums, left, i)
+                    + helper(dp, nums, i, right));
         }
-        memo[left][right] = res;
+        dp[left][right] = res;
         return res;
     }
 }

@@ -3,19 +3,21 @@ package company.uber.q900;
 public class Q902 {
     public int atMostNGivenDigitSet(String[] digits, int n) {
         String nStr = String.valueOf(n);
-        int total = 0;
+        int res = 0;
         for (int i = 1; i < nStr.length(); i++) {
-            total += Math.pow(digits.length, i);
+            res += Math.pow(digits.length, i);
         }
         for (int i = 0; i < nStr.length(); i++) {
             boolean sameStart = false;
             for (String digit : digits) {
-                int digitVal = Integer.parseInt(digit);
-                if (digitVal < nStr.charAt(i) - '0') total += Math.pow(digits.length, nStr.length() - i - 1);
-                else if (digitVal == nStr.charAt(i) - '0') sameStart = true;
+                if (nStr.charAt(i) - '0' > Integer.parseInt(digit)) {
+                    res += Math.pow(digits.length, nStr.length() - i - 1);
+                } else if (nStr.charAt(i) - '0' == Integer.parseInt(digit)) {
+                    sameStart = true;
+                }
             }
-            if (!sameStart) return total;
+            if (!sameStart) return res;
         }
-        return total + 1;
+        return res + 1;
     }
 }

@@ -3,7 +3,7 @@ package company.uber.q400;
 import java.util.*;
 
 public class Q428 {
-    class Node {
+    private class Node {
         public int val;
         public List<Node> children;
 
@@ -24,35 +24,35 @@ public class Q428 {
         // Encodes a tree to a single string.
         public String serialize(Node root) {
             StringBuilder builder = new StringBuilder();
-            _serialize(builder, root);
+            _ser(builder, root);
             return builder.toString();
         }
 
-        private void _serialize(StringBuilder builder, Node root) {
+        private void _ser(StringBuilder builder, Node root) {
             if (root == null) return;
             builder.append(root.val).append(",");
             builder.append(root.children.size()).append(",");
             for (Node child : root.children) {
-                _serialize(builder, child);
+                _ser(builder, child);
             }
         }
 
         // Decodes your encoded data to tree.
         public Node deserialize(String data) {
-            if (data.equals("")) return null;
+            if (data.isEmpty()) return null;
             Queue<String> queue = new LinkedList<>(Arrays.asList(data.split(",")));
-            return _deserialize(queue);
+            return _des(queue);
         }
 
-        private Node _deserialize(Queue<String> queue) {
+        private Node _des(Queue<String> queue) {
             if (queue.isEmpty()) return null;
             int val = Integer.parseInt(queue.poll());
             int size = Integer.parseInt(queue.poll());
-            Node node = new Node(val, new ArrayList<>());
+            Node root = new Node(val, new ArrayList<>());
             for (int i = 0; i < size; i++) {
-                node.children.add(_deserialize(queue));
+                root.children.add(_des(queue));
             }
-            return node;
+            return root;
         }
     }
 }

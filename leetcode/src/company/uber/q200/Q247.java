@@ -14,21 +14,22 @@ public class Q247 {
         map.put('6', '9');
         map.put('9', '6');
         List<String> res = new ArrayList<>();
-        helper(res, map, 0, n - 1, new char[n]);
+        char[] chars = new char[n];
+        helper(res, chars, 0, n - 1, map);
         return res;
     }
 
-    private void helper(List<String> res, Map<Character, Character> map, int left, int right, char[] chars) {
+    private void helper(List<String> res, char[] chars, int left, int right, Map<Character, Character> map) {
         if (left > right) {
-            res.add(new String(chars));
+            res.add(String.valueOf(chars));
             return;
         }
-        for (Character key : map.keySet()) {
-            if (left == right && (key == '6' || key == '9')) continue;
-            if (key == '0' && left == 0 && left < right) continue;
-            chars[left] = key;
-            chars[right] = map.get(key);
-            helper(res, map, left + 1, right - 1, chars);
+        for (Character c1 : map.keySet()) {
+            if (left == right && (c1 == '6' || c1 == '9')) continue;
+            if (left == 0 && left < right && c1 == '0') continue;
+            chars[left] = c1;
+            chars[right] = map.get(c1);
+            helper(res, chars, left + 1, right - 1, map);
         }
     }
 }

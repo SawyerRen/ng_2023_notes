@@ -29,6 +29,7 @@ public class Q1209 {
                 stack.addLast(new Node(1, c));
             }
         }
+        if (stack.getLast().count >= 3) stack.removeLast();
         StringBuilder builder = new StringBuilder();
         while (!stack.isEmpty()) {
             Node node = stack.removeFirst();
@@ -67,8 +68,7 @@ public class Q1209 {
                 if (crash.length() < notCrash.length()) {
                     memo.put(s, crash);
                     return crash;
-                }
-                else {
+                } else {
                     memo.put(s, notCrash);
                     return notCrash;
                 }
