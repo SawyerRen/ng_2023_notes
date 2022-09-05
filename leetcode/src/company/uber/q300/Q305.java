@@ -7,20 +7,25 @@ import java.util.List;
 public class Q305 {
     class UnionFind {
         int[] parents;
-        int n;
         int count;
 
         public UnionFind(int n) {
-            this.n = n;
             parents = new int[n];
             Arrays.fill(parents, -1);
             count = 0;
         }
 
         void init(int i) {
-            if (parents[i] != -1) return;
             parents[i] = i;
             count++;
+        }
+
+        int find(int i) {
+            while (i != parents[i]) {
+                parents[i] = parents[parents[i]];
+                i = parents[i];
+            }
+            return i;
         }
 
         void union(int i, int j) {
@@ -29,32 +34,21 @@ public class Q305 {
             parents[p2] = p1;
             count--;
         }
-
-        private int find(int i) {
-            while (i != parents[i]) {
-                parents[i] = parents[parents[i]];
-                i = parents[i];
-            }
-            return i;
-        }
     }
 
+    int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+
     public List<Integer> numIslands2(int m, int n, int[][] positions) {
-        int len = m * n;
-        UnionFind uf = new UnionFind(len);
         List<Integer> res = new ArrayList<>();
-        int[][] board = new int[m][n];
-        int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+        UnionFind uf = new UnionFind(m * n);
         for (int[] position : positions) {
-            int i = position[0], j = position[1];
-            int index = i * n + j;
-            uf.init(index);
-            board[i][j] = 1;
+            int index = position[0] * n + position[1];
+            if (uf.parents[index] == -1) uf.init(index);
             for (int[] dir : dirs) {
-                int x = i + dir[0], y = j + dir[1];
-                if (x < 0 || x >= m || y < 0 || y >= n || board[x][y] == 0) continue;
-                int index2 = x * n + y;
-                uf.union(index, index2);
+                int x = position[0] + dir[0], y = position[1] + dir[1];
+                if (x < 0 || x >= m || y < 0 || y >= n) continue;
+                int nextIndex = x * n + y;
+                if (uf.parents[nextIndex] != -1) uf.union(index, nextIndex);
             }
             res.add(uf.count);
         }
