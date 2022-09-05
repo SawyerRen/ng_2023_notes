@@ -9,15 +9,14 @@ public class Q763 {
         for (int i = 0; i < s.length(); i++) {
             lastIndex[s.charAt(i) - 'a'] = i;
         }
-        int i = 0, j = 0, end = 0;
         List<Integer> res = new ArrayList<>();
-        while (j < s.length()) {
-            end = Math.max(end, lastIndex[s.charAt(j) - 'a']);
-            if (j == end) {
-                res.add(j - i + 1);
-                i = j + 1;
+        int end = 0, start = 0;
+        for (int i = 0; i < s.length(); i++) {
+            end = Math.max(end, lastIndex[s.charAt(i) - 'a']);
+            if (i == end) {
+                res.add(end - start + 1);
+                start = i + 1;
             }
-            j++;
         }
         return res;
     }

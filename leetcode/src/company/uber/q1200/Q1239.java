@@ -9,15 +9,15 @@ public class Q1239 {
         return helper(arr, 0, "");
     }
 
-    private int helper(List<String> arr, int index, String s) {
+    private int helper(List<String> arr, int i, String s) {
         Set<Character> set = new HashSet<>();
         for (char c : s.toCharArray()) {
             set.add(c);
         }
-        if (set.size() != s.length()) return 0;
+        if (s.length() != set.size()) return 0;
         int res = s.length();
-        for (int i = index; i < arr.size(); i++) {
-            res = Math.max(res, helper(arr, i + 1, s + arr.get(i)));
+        for (int j = i; j < arr.size(); j++) {
+            res = Math.max(res, helper(arr, j + 1, s + arr.get(j)));
         }
         return res;
     }

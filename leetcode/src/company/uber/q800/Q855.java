@@ -7,14 +7,13 @@ public class Q855 {
         PriorityQueue<int[]> pq;
         int n;
 
-        private int calDist(int[] interval) {
+        int calDist(int[] interval) {
             if (interval[0] == -1) return interval[1];
-            else if (interval[1] == n) return n - interval[0] - 1;
-            return (interval[1] - interval[0]) / 2;
+            if (interval[1] == n) return n - interval[0] - 1;
+            else return (interval[1] - interval[0]) / 2;
         }
 
         public ExamRoom(int n) {
-            this.n = n;
             pq = new PriorityQueue<>((a, b) -> {
                 int d1 = calDist(a);
                 int d2 = calDist(b);
@@ -22,6 +21,7 @@ public class Q855 {
                 return d2 - d1;
             });
             pq.add(new int[]{-1, n});
+            this.n = n;
         }
 
         public int seat() {
@@ -42,12 +42,8 @@ public class Q855 {
         public void leave(int p) {
             int[] left = null, right = null;
             for (int[] interval : pq) {
-                if (interval[0] == p) {
-                    right = interval;
-                }
-                if (interval[1] == p) {
-                    left = interval;
-                }
+                if (interval[0] == p) right = interval;
+                else if (interval[1] == p) left = interval;
             }
             pq.remove(left);
             pq.remove(right);

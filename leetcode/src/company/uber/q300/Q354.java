@@ -11,27 +11,27 @@ public class Q354 {
         for (int i = 0; i < heights.length; i++) {
             heights[i] = envelopes[i][1];
         }
-        return lengthOfLIS(heights);
+        return lis(heights);
     }
 
-    public  int lengthOfLIS(int[] nums) {
+    private int lis(int[] heights) {
         List<Integer> list = new ArrayList<>();
-        for (int num : nums) {
-            if (list.size() == 0 || num > list.get(list.size() - 1)) {
-                list.add(num);
+        for (int height : heights) {
+            if (list.isEmpty() || height > list.get(list.size() - 1)) {
+                list.add(height);
             } else {
-                int index = getIndex(list, num);
-                list.set(index, num);
+                int index = binarySearch(list, height);
+                list.set(index, height);
             }
         }
         return list.size();
     }
 
-    private int getIndex(List<Integer> nums, int target) {
-        int left = 0, right = nums.size();
+    private int binarySearch(List<Integer> list, int height) {
+        int left = 0, right = list.size();
         while (left < right) {
             int mid = left + (right - left) / 2;
-            if (nums.get(mid) >= target) right = mid;
+            if (list.get(mid) >= height) right = mid;
             else left = mid + 1;
         }
         return left;

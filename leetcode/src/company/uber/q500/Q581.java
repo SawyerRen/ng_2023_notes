@@ -19,6 +19,6 @@ public class Q581 {
             }
             stack.push(i);
         }
-        return left >= right ? 0 : right - left + 1;
+        return right <= left ? 0 : right - left + 1;
     }
 }

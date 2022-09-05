@@ -10,7 +10,7 @@ public class Q740 {
         dp[10001] = 0;
         dp[10000] = sum[10000];
         for (int i = 9999; i >= 0; i--) {
-            dp[i] = Math.max(sum[i] + dp[i + 2], dp[i + 1]);
+            dp[i] = Math.max(dp[i + 1], sum[i] + dp[i + 2]);
         }
         return dp[0];
     }

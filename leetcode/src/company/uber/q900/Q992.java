@@ -5,24 +5,20 @@ import java.util.Map;
 
 public class Q992 {
     public int subarraysWithKDistinct(int[] nums, int k) {
-        Map<Integer, Integer> countAtMostK = new HashMap<>();
-        Map<Integer, Integer> countAtMostKMinus1 = new HashMap<>();
-        int i1 = 0, i2 = 0, j = 0;
-        int res = 0;
+        return atMostK(nums, k) - atMostK(nums, k - 1);
+    }
+
+    private int atMostK(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int i = 0, j = 0, res = 0;
         while (j < nums.length) {
-            countAtMostK.put(nums[j], countAtMostK.getOrDefault(nums[j], 0) + 1);
-            countAtMostKMinus1.put(nums[j], countAtMostKMinus1.getOrDefault(nums[j], 0) + 1);
-            while (countAtMostK.size() > k) {
-                countAtMostK.put(nums[i1], countAtMostK.get(nums[i1]) - 1);
-                if (countAtMostK.get(nums[i1]) == 0) countAtMostK.remove(nums[i1]);
-                i1++;
+            map.put(nums[j], map.getOrDefault(nums[j], 0) + 1);
+            while (map.size() > k) {
+                map.put(nums[i], map.get(nums[i]) - 1);
+                if (map.get(nums[i]) == 0) map.remove(nums[i]);
+                i++;
             }
-            while (countAtMostKMinus1.size() >= k) {
-                countAtMostKMinus1.put(nums[i2], countAtMostKMinus1.get(nums[i2]) - 1);
-                if (countAtMostKMinus1.get(nums[i2]) == 0) countAtMostKMinus1.remove(nums[i2]);
-                i2++;
-            }
-            res += i2 - i1;
+            res += j - i + 1;
             j++;
         }
         return res;

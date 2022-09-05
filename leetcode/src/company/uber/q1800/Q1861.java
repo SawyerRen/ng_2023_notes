@@ -6,12 +6,12 @@ public class Q1861 {
         char[][] res = new char[n][m];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                res[j][m - i - 1] = box[i][j];
+                res[j][m - 1 - i] = box[i][j];
             }
         }
         for (int col = 0; col < m; col++) {
-            int row = n - 1, index = n - 1;
-            while (row >= 0) {
+            int index = n - 1;
+            for (int row = n - 1; row >= 0; row--) {
                 if (res[row][col] == '#') {
                     res[row][col] = '.';
                     res[index][col] = '#';
@@ -19,7 +19,6 @@ public class Q1861 {
                 } else if (res[row][col] == '*') {
                     index = row - 1;
                 }
-                row--;
             }
         }
         return res;

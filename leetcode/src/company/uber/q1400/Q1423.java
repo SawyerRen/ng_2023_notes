@@ -6,7 +6,7 @@ public class Q1423 {
         int[] preSum = new int[cardPoints.length + 1];
         for (int i = 0; i < cardPoints.length; i++) {
             total += cardPoints[i];
-            preSum[i + 1] = total;
+            preSum[i + 1] = preSum[i] + cardPoints[i];
         }
         k = cardPoints.length - k;
         int left = 0, right = k;
