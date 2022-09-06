@@ -7,8 +7,8 @@ public class Q1293 {
     public int shortestPath(int[][] grid, int k) {
         int m = grid.length, n = grid[0].length;
         Queue<int[]> queue = new LinkedList<>();
-        boolean[][][] visited = new boolean[m][n][k + 1];
         queue.add(new int[]{0, 0, k});
+        boolean[][][] visited = new boolean[m][n][k + 1];
         visited[0][0][k] = true;
         int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
         int res = 0;
@@ -20,12 +20,11 @@ public class Q1293 {
                 for (int[] dir : dirs) {
                     int x = poll[0] + dir[0], y = poll[1] + dir[1], remainK = poll[2];
                     if (x < 0 || x >= m || y < 0 || y >= n) continue;
-                    if (grid[x][y] == 1) {
-                        remainK--;
-                    }
-                    if (remainK < 0 || visited[x][y][remainK]) continue;
-                    queue.add(new int[]{x, y, remainK});
+                    if (grid[x][y] == 1) remainK--;
+                    if (remainK < 0) continue;
+                    if (visited[x][y][remainK]) continue;
                     visited[x][y][remainK] = true;
+                    queue.add(new int[]{x, y, remainK});
                 }
             }
             res++;

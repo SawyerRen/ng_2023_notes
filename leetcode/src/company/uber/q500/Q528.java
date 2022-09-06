@@ -8,8 +8,8 @@ public class Q528 {
         Random random;
 
         public Solution(int[] w) {
-            int sum = 0;
             preSum = new int[w.length];
+            int sum = 0;
             for (int i = 0; i < w.length; i++) {
                 sum += w[i];
                 preSum[i] = sum;

@@ -1,5 +1,6 @@
 package company.uber.q1800;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Q1838 {
@@ -10,8 +11,7 @@ public class Q1838 {
         while (j < nums.length) {
             sum += nums[j];
             while (sum + k < nums[j] * (j - i + 1)) {
-                sum -= nums[i];
-                i++;
+                sum -= nums[i++];
             }
             res = Math.max(res, j - i + 1);
             j++;

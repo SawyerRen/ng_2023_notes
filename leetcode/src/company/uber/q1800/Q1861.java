@@ -14,8 +14,7 @@ public class Q1861 {
             for (int row = n - 1; row >= 0; row--) {
                 if (res[row][col] == '#') {
                     res[row][col] = '.';
-                    res[index][col] = '#';
-                    index--;
+                    res[index--][col] = '#';
                 } else if (res[row][col] == '*') {
                     index = row - 1;
                 }

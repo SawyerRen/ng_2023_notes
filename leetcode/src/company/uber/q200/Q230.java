@@ -3,56 +3,52 @@ package company.uber.q200;
 import model.TreeNode;
 
 import java.util.Stack;
+import java.util.TreeMap;
 
 public class Q230 {
-    int count = 0, res = 0;
+    class Result {
+        int count;
+        int val;
+    }
 
     public int kthSmallest(TreeNode root, int k) {
-        TreeNode cur = root;
-        while (cur != null) {
-            if (cur.left == null) {
+        Result result = new Result();
+        dfs(root, k, result);
+        return result.val;
+    }
+
+    private void dfs(TreeNode root, int k, Result result) {
+        if (root == null) return;
+        dfs(root.left, k, result);
+        result.count++;
+        if (result.count == k) result.val = root.val;
+        dfs(root.right, k, result);
+    }
+
+    public int kthSmallest4(TreeNode root, int k) {
+        while (root != null) {
+            if (root.left == null) {
                 k--;
-                if (k == 0) return cur.val;
-                cur = cur.right;
+                if (k == 0) return root.val;
+                root = root.right;
             } else {
-                TreeNode pre = cur.left;
-                while (pre.right != null && pre.right != cur) {
+                TreeNode pre = root.left;
+                while (pre.right != null) {
                     pre = pre.right;
                 }
-                if (pre.right == null) {
-                    pre.right = cur;
-                    cur = cur.left;
-                } else {
-                    k--;
-                    if (k == 0) return cur.val;
-                    pre.right = null;
-                    cur = cur.right;
-                }
+                pre.right = root;
+                TreeNode temp = root;
+                root = root.left;
+                temp.left = null;
             }
         }
         return -1;
     }
 
-    public int kthSmallest2(TreeNode root, int k) {
-        dfs(root, k);
-        return res;
-    }
-
-    private void dfs(TreeNode root, int k) {
-        if (root == null) return;
-        dfs(root.left, k);
-        count++;
-        if (count == k) {
-            res = root.val;
-            return;
-        }
-        dfs(root.right, k);
-    }
-
     public int kthSmallest1(TreeNode root, int k) {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
-        while (cur != null || !stack.isEmpty()) {
+        while (!stack.isEmpty() || cur != null) {
             while (cur != null) {
                 stack.push(cur);
                 cur = cur.left;

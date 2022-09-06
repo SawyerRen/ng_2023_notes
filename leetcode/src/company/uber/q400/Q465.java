@@ -18,15 +18,15 @@ public class Q465 {
         return helper(debts, 0);
     }
 
-    private int helper(int[] debts, int i) {
-        if (i == debts.length) return 0;
-        if (debts[i] == 0) return helper(debts, i + 1);
+    private int helper(int[] debts, int index) {
+        if (index == debts.length) return 0;
+        if (debts[index] == 0) return helper(debts, index + 1);
         int res = Integer.MAX_VALUE;
-        for (int j = i + 1; j < debts.length; j++) {
-            if (debts[i] * debts[j] < 0) {
-                debts[j] += debts[i];
-                res = Math.min(res, helper(debts, i + 1) + 1);
-                debts[j] -= debts[i];
+        for (int next = index + 1; next < debts.length; next++) {
+            if (debts[index] * debts[next] < 0) {
+                debts[next] += debts[index];
+                res = Math.min(res, helper(debts, index + 1) + 1);
+                debts[next] -= debts[index];
             }
         }
         return res;

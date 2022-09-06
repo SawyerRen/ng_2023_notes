@@ -17,9 +17,10 @@ public class Q529 {
             int count = 0;
             for (int i = -1; i < 2; i++) {
                 for (int j = -1; j < 2; j++) {
+                    if (i == 0 && j == 0) continue;
                     int x = poll[0] + i, y = poll[1] + j;
                     if (x < 0 || x >= m || y < 0 || y >= n) continue;
-                    if (board[x][y] == 'M' || board[x][y] == 'X') count++;
+                    if (board[x][y] == 'X' || board[x][y] == 'M') count++;
                 }
             }
             if (count > 0) {
@@ -29,11 +30,12 @@ public class Q529 {
             board[poll[0]][poll[1]] = 'B';
             for (int i = -1; i < 2; i++) {
                 for (int j = -1; j < 2; j++) {
+                    if (i == 0 && j == 0) continue;
                     int x = poll[0] + i, y = poll[1] + j;
                     if (x < 0 || x >= m || y < 0 || y >= n) continue;
                     if (board[x][y] == 'E') {
-                        queue.add(new int[]{x, y});
                         board[x][y] = 'B';
+                        queue.add(new int[]{x, y});
                     }
                 }
             }

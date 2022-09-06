@@ -1,5 +1,7 @@
 package company.uber.q2300;
 
+import java.util.Map;
+
 public class Q2333 {
     public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
         int[] diff = new int[100001];
@@ -8,11 +10,11 @@ public class Q2333 {
         long totalDiff = 0;
         for (int i = 0; i < nums1.length; i++) {
             int d = Math.abs(nums1[i] - nums2[i]);
-            maxDiff = Math.max(d, maxDiff);
             totalDiff += d;
+            maxDiff = Math.max(maxDiff, d);
             diff[d]++;
         }
-        if (totalDiff <= k) return 0;
+        if (k >= totalDiff) return 0;
         for (int i = maxDiff; i > 0; i--) {
             if (k == 0) break;
             if (diff[i] > 0) {
@@ -29,9 +31,7 @@ public class Q2333 {
         }
         long res = 0;
         for (int i = maxDiff; i > 0; i--) {
-            if (diff[i] > 0) {
-                res += Math.pow(i, 2) * diff[i];
-            }
+            res += Math.pow(i, 2) * diff[i];
         }
         return res;
     }

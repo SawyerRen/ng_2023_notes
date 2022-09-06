@@ -7,12 +7,12 @@ import java.util.Queue;
 
 public class Q662 {
     public int widthOfBinaryTree(TreeNode root) {
-        int res = 0;
+        if (root == null) return 0;
         Queue<TreeNode> queue = new LinkedList<>();
         Queue<Integer> cols = new LinkedList<>();
-        if (root == null) return res;
         queue.add(root);
         cols.add(1);
+        int res = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
             Integer min = null, max = null;

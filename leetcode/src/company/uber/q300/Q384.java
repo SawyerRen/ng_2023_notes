@@ -13,12 +13,12 @@ public class Q384 {
         }
 
         public int[] reset() {
-            return this.nums;
+            return nums;
         }
 
         public int[] shuffle() {
             int[] res = nums.clone();
-            for (int i = 1; i < nums.length; i++) {
+            for (int i = 1; i < res.length; i++) {
                 int j = random.nextInt(i + 1);
                 swap(res, i, j);
             }
@@ -26,9 +26,9 @@ public class Q384 {
         }
 
         private void swap(int[] res, int i, int j) {
-            int t = res[i];
+            int n = res[i];
             res[i] = res[j];
-            res[j] = t;
+            res[j] = n;
         }
     }
 }

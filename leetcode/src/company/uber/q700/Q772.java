@@ -31,9 +31,7 @@ public class Q772 {
                 else if (sign == '/') stack.push(stack.pop() / num);
                 num = 0;
                 sign = c;
-                if (c == ')') {
-                    break;
-                }
+                if (sign == ')') break;
             }
         }
         int res = 0;

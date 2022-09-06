@@ -4,8 +4,9 @@ import java.util.Stack;
 
 public class Q224 {
     public int calculate(String s) {
+        int res = 0;
+        int sign = 1;
         Stack<Integer> stack = new Stack<>();
-        int res = 0, sign = 1;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (Character.isDigit(c)) {
@@ -15,6 +16,10 @@ public class Q224 {
                     i++;
                 }
                 res += sign * num;
+            } else if (c == '+') {
+                sign = 1;
+            } else if (c == '-') {
+                sign = -1;
             } else if (c == '(') {
                 stack.push(res);
                 stack.push(sign);
@@ -22,10 +27,6 @@ public class Q224 {
                 sign = 1;
             } else if (c == ')') {
                 res = stack.pop() * res + stack.pop();
-            } else if (c == '+') {
-                sign = 1;
-            } else if (c == '-') {
-                sign = -1;
             }
         }
         return res;

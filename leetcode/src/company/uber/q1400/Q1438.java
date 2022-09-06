@@ -9,17 +9,17 @@ public class Q1438 {
         LinkedList<Integer> maxQueue = new LinkedList<>();
         LinkedList<Integer> minQueue = new LinkedList<>();
         while (j < nums.length) {
-            while (!maxQueue.isEmpty() && nums[j] > maxQueue.getLast()) {
+            while (!maxQueue.isEmpty() && maxQueue.getLast() < nums[j]) {
                 maxQueue.removeLast();
             }
             maxQueue.addLast(nums[j]);
-            while (!minQueue.isEmpty() && nums[j] < minQueue.getLast()) {
+            while (!minQueue.isEmpty() && minQueue.getLast() > nums[j]) {
                 minQueue.removeLast();
             }
             minQueue.addLast(nums[j]);
             while (maxQueue.getFirst() - minQueue.getFirst() > limit) {
-                if (minQueue.getFirst() == nums[i]) minQueue.removeFirst();
                 if (maxQueue.getFirst() == nums[i]) maxQueue.removeFirst();
+                if (minQueue.getFirst() == nums[i]) minQueue.removeFirst();
                 i++;
             }
             res = Math.max(res, j - i + 1);

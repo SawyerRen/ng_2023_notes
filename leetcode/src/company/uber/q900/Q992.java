@@ -9,8 +9,8 @@ public class Q992 {
     }
 
     private int atMostK(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
         int i = 0, j = 0, res = 0;
+        Map<Integer, Integer> map = new HashMap<>();
         while (j < nums.length) {
             map.put(nums[j], map.getOrDefault(nums[j], 0) + 1);
             while (map.size() > k) {

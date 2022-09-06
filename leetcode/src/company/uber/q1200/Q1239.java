@@ -14,7 +14,7 @@ public class Q1239 {
         for (char c : s.toCharArray()) {
             set.add(c);
         }
-        if (s.length() != set.size()) return 0;
+        if (set.size() < s.length()) return 0;
         int res = s.length();
         for (int j = i; j < arr.size(); j++) {
             res = Math.max(res, helper(arr, j + 1, s + arr.get(j)));

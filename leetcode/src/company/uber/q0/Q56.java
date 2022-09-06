@@ -1,5 +1,6 @@
 package company.uber.q0;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -17,7 +18,7 @@ public class Q56 {
             list.add(new int[]{start, end});
         }
         int[][] res = new int[list.size()][2];
-        for (int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < res.length; i++) {
             res[i] = list.get(i);
         }
         return res;

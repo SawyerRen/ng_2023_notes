@@ -3,7 +3,6 @@ package company.uber.q1800;
 public class Q1842 {
     public String nextPalindrome(String num) {
         int len = num.length();
-        boolean even = len % 2 == 0;
         int[] nums = new int[len / 2];
         for (int i = 0; i < len / 2; i++) {
             nums[i] = num.charAt(i) - '0';
@@ -13,7 +12,7 @@ public class Q1842 {
         for (int i : nums) {
             builder.append(i);
         }
-        if (even) return builder.toString() + builder.reverse().toString();
+        if (len % 2 == 0) return builder.toString() + builder.reverse().toString();
         else return builder.toString() + num.charAt(len / 2) + builder.reverse().toString();
     }
 

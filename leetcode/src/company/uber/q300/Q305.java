@@ -1,5 +1,6 @@
 package company.uber.q300;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,17 +8,18 @@ import java.util.List;
 public class Q305 {
     class UnionFind {
         int[] parents;
-        int count;
+        int count = 0;
 
         public UnionFind(int n) {
             parents = new int[n];
             Arrays.fill(parents, -1);
-            count = 0;
         }
 
         void init(int i) {
-            parents[i] = i;
-            count++;
+            if (parents[i] == -1) {
+                parents[i] = i;
+                count++;
+            }
         }
 
         int find(int i) {
@@ -43,12 +45,13 @@ public class Q305 {
         UnionFind uf = new UnionFind(m * n);
         for (int[] position : positions) {
             int index = position[0] * n + position[1];
-            if (uf.parents[index] == -1) uf.init(index);
+            uf.init(index);
             for (int[] dir : dirs) {
                 int x = position[0] + dir[0], y = position[1] + dir[1];
                 if (x < 0 || x >= m || y < 0 || y >= n) continue;
-                int nextIndex = x * n + y;
-                if (uf.parents[nextIndex] != -1) uf.union(index, nextIndex);
+                int i = x * n + y;
+                if (uf.parents[i] != -1)
+                    uf.union(index, i);
             }
             res.add(uf.count);
         }

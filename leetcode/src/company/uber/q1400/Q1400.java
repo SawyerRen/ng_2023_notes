@@ -2,7 +2,7 @@ package company.uber.q1400;
 
 public class Q1400 {
     public boolean canConstruct(String s, int k) {
-        if (k > s.length()) return false;
+        if (s.length() < k) return false;
         int[] count = new int[26];
         for (char c : s.toCharArray()) {
             count[c - 'a']++;

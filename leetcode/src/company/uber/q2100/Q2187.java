@@ -4,7 +4,7 @@ public class Q2187 {
     public long minimumTime(int[] time, int totalTrips) {
         long left = 0, right = 0;
         for (int i : time) {
-            right = Math.max(i, right);
+            right = Math.max(right, i);
         }
         right = right * totalTrips + 1;
         while (left < right) {
