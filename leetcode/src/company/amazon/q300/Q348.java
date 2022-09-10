@@ -4,26 +4,24 @@ public class Q348 {
     class TicTacToe {
         int[] rows;
         int[] cols;
-        int n;
         int diagonal;
         int antiDiagonal;
+        int n;
 
         public TicTacToe(int n) {
             this.n = n;
-            rows = new int[n];
-            cols = new int[n];
+            this.rows = new int[n];
+            this.cols = new int[n];
         }
 
         public int move(int row, int col, int player) {
-            int value = player == 1 ? 1 : -1;
-            rows[row] += value;
-            cols[col] += value;
-            if (row == col) diagonal += value;
-            if (row == n - 1 - col) antiDiagonal += value;
-            if (Math.abs(rows[row]) == n || Math.abs(cols[col]) == n
-                    || Math.abs(diagonal) == n || Math.abs(antiDiagonal) == n) {
-                return player;
-            }
+            int val = player == 1 ? 1 : -1;
+            rows[row] += val;
+            cols[col] += val;
+            if (row == col) diagonal += val;
+            if (row == n - col - 1) antiDiagonal += val;
+            if (Math.abs(rows[row]) == n || Math.abs(cols[col]) == n || Math.abs(diagonal) == n ||
+                    Math.abs(antiDiagonal) == n) return player;
             return 0;
         }
     }

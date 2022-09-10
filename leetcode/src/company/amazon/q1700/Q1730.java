@@ -29,7 +29,7 @@ public class Q1730 {
                 if (grid[poll[0]][poll[1]] == '#') return res;
                 for (int[] dir : dirs) {
                     int x = poll[0] + dir[0], y = poll[1] + dir[1];
-                    if (x < 0 || x >= m || y < 0 || y >= n || visited[x][y] || grid[x][y] == 'X') continue;
+                    if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] == 'X' || visited[x][y]) continue;
                     queue.add(new int[]{x, y});
                     visited[x][y] = true;
                 }

@@ -9,40 +9,39 @@ import java.util.List;
 public class Q545 {
     public List<Integer> boundaryOfBinaryTree(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        if (root == null) return res;
         res.add(root.val);
-        findLeft(res, root.left);
-        findBottom(res, root.left);
-        findBottom(res, root.right);
+        leftBound(res, root.left);
+        findLeaves(res, root.left);
+        findLeaves(res, root.right);
         LinkedList<Integer> rightList = new LinkedList<>();
-        findRight(rightList, root.right);
+        rightBound(rightList, root.right);
         res.addAll(rightList);
         return res;
     }
 
-    private void findBottom(List<Integer> res, TreeNode node) {
-        if (node == null) return;
-        if (node.left == null && node.right == null) {
-            res.add(node.val);
+    private void rightBound(LinkedList<Integer> rightList, TreeNode root) {
+        if (root == null) return;
+        if (root.left == null && root.right == null) return;
+        rightList.addFirst(root.val);
+        if (root.right != null) rightBound(rightList, root.right);
+        else rightBound(rightList, root.left);
+    }
+
+    private void findLeaves(List<Integer> res, TreeNode root) {
+        if (root == null) return;
+        if (root.left == null && root.right == null) {
+            res.add(root.val);
             return;
         }
-        findBottom(res, node.left);
-        findBottom(res, node.right);
+        findLeaves(res, root.left);
+        findLeaves(res, root.right);
     }
 
-    private void findLeft(List<Integer> res, TreeNode node) {
-        if (node == null) return;
-        if (node.left == null && node.right == null) return;
-        res.add(node.val);
-        if (node.left != null) findLeft(res, node.left);
-        else findLeft(res, node.right);
-    }
-
-    private void findRight(LinkedList<Integer> res, TreeNode node) {
-        if (node == null) return;
-        if (node.left == null && node.right == null) return;
-        res.addFirst(node.val);
-        if (node.right != null) findRight(res, node.right);
-        else findRight(res, node.left);
+    private void leftBound(List<Integer> res, TreeNode root) {
+        if (root == null) return;
+        if (root.left == null && root.right == null) return;
+        res.add(root.val);
+        if (root.left != null) leftBound(res, root.left);
+        else leftBound(res, root.right);
     }
 }

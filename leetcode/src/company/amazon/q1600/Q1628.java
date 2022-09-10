@@ -8,10 +8,10 @@ public class Q1628 {
         // define your fields here
     }
 
-     class TreeNode extends Node {
+    class TreeNode extends Node {
+        String val;
         TreeNode left;
         TreeNode right;
-        String val;
 
         public TreeNode(String val) {
             this.val = val;
@@ -19,15 +19,15 @@ public class Q1628 {
 
         @Override
         public int evaluate() {
-            return dfs(this);
+            return helper(this);
         }
 
-        private int dfs(TreeNode node) {
-            if (node == null) return 0;
-            if (node.left == null && node.right == null) return Integer.parseInt(node.val);
-            int left = dfs(node.left);
-            int right = dfs(node.right);
-            switch (node.val) {
+        private int helper(TreeNode root) {
+            if (root == null) return 0;
+            if (root.left == null && root.right == null) return Integer.parseInt(root.val);
+            int left = helper(root.left);
+            int right = helper(root.right);
+            switch (root.val) {
                 case "+":
                     return left + right;
                 case "-":
@@ -39,6 +39,12 @@ public class Q1628 {
             }
         }
     }
+
+    /**
+     * This is the TreeBuilder class.
+     * You can treat it as the driver code that takes the postinfix input
+     * and returns the expression tree represnting it as a Node.
+     */
 
     class TreeBuilder {
         Node buildTree(String[] postfix) {
@@ -55,7 +61,7 @@ public class Q1628 {
                     stack.push(new TreeNode(s));
                 }
             }
-            return stack.pop();
+            return stack.peek();
         }
     }
 }

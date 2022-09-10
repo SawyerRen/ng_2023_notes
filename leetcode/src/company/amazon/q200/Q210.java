@@ -12,10 +12,12 @@ public class Q210 {
             preCount[prerequisite[0]]++;
         }
         Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < preCount.length; i++) {
-            if (preCount[i] == 0) queue.add(i);
-        }
         int[] res = new int[numCourses];
+        for (int i = 0; i < preCount.length; i++) {
+            if (preCount[i] == 0) {
+                queue.add(i);
+            }
+        }
         int index = 0;
         while (!queue.isEmpty()) {
             Integer c1 = queue.poll();
@@ -23,12 +25,11 @@ public class Q210 {
             if (map.containsKey(c1)) {
                 for (Integer c2 : map.get(c1)) {
                     preCount[c2]--;
-                    if (preCount[c2] == 0) {
-                        queue.add(c2);
-                    }
+                    if (preCount[c2] == 0) queue.add(c2);
                 }
             }
         }
-        return index == res.length ? res : new int[0];
+        if (index == numCourses) return res;
+        return new int[0];
     }
 }

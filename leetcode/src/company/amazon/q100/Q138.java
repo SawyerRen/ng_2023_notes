@@ -33,7 +33,7 @@ public class Q138 {
             cur = cur.next.next;
         }
         cur = head;
-        Node resHead = head.next;
+        Node res = cur.next;
         while (cur != null) {
             Node next = cur.next.next;
             if (next != null) {
@@ -42,7 +42,7 @@ public class Q138 {
             cur.next = next;
             cur = next;
         }
-        return resHead;
+        return res;
     }
 
     public Node copyRandomList1(Node head) {

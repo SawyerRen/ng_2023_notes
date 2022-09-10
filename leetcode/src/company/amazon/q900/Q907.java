@@ -7,13 +7,12 @@ public class Q907 {
         Stack<Integer> stack = new Stack<>();
         stack.push(-1);
         long res = 0;
-        long mod = (long)1e9 + 7;
+        long mod = 1000000007;
         for (int i = 0; i <= arr.length; i++) {
-            int curVal = i == arr.length ? 0 : arr[i];
-            while (stack.peek() != -1 && curVal < arr[stack.peek()]) {
+            while (stack.peek() != -1 && (i == arr.length || arr[i] < arr[stack.peek()])) {
                 int cur = stack.pop();
-                long subArrayCount = (i - cur) * (cur - stack.peek()) % mod;
-                res = (res + arr[cur] * subArrayCount) % mod;
+                long count = (cur - stack.peek()) * (i - cur) % mod;
+                res = (res + count * arr[cur]) % mod;
             }
             stack.push(i);
         }

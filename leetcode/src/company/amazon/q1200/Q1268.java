@@ -1,6 +1,8 @@
 package company.amazon.q1200;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Q1268 {
     class Node {
@@ -12,7 +14,12 @@ public class Q1268 {
         Arrays.sort(products);
         Node root = new Node();
         for (String product : products) {
-            addToTrie(product, root);
+            Node cur = root;
+            for (char c : product.toCharArray()) {
+                if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new Node();
+                cur = cur.children[c - 'a'];
+                if (cur.list.size() < 3) cur.list.add(product);
+            }
         }
         List<List<String>> res = new ArrayList<>();
         Node cur = root;
@@ -24,22 +31,12 @@ public class Q1268 {
             }
             cur = cur.children[c - 'a'];
             if (cur != null) {
-                List<String> list = new ArrayList<>(cur.list);
-                res.add(list);
+                res.add(cur.list);
             } else {
                 res.add(new ArrayList<>());
                 notFound = true;
             }
         }
         return res;
-    }
-
-    private void addToTrie(String s, Node root) {
-        Node cur = root;
-        for (char c : s.toCharArray()) {
-            if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new Node();
-            cur = cur.children[c - 'a'];
-            if (cur.list.size() < 3) cur.list.add(s);
-        }
     }
 }

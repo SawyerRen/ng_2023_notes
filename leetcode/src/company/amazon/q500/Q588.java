@@ -7,30 +7,42 @@ import java.util.TreeMap;
 public class Q588 {
     class File {
         String name;
-        StringBuilder content;
-        TreeMap<String, File> directoryFiles;
+        StringBuilder content = new StringBuilder();
+        TreeMap<String, File> files = new TreeMap<>();
 
         public File(String name) {
             this.name = name;
-            content = new StringBuilder();
-            directoryFiles = new TreeMap<>();
         }
     }
 
     class FileSystem {
-        File root;
+        File root = new File("/");
 
         public FileSystem() {
-            root = new File("/");
+
+        }
+
+        private File findFile(String path, boolean create) {
+            File cur = root;
+            String[] split = path.split("/");
+            for (String s : split) {
+                if (s.equals("")) continue;
+                if (!cur.files.containsKey(s)) {
+                    if (create) cur.files.put(s, new File(s));
+                    else return null;
+                }
+                cur = cur.files.get(s);
+            }
+            return cur;
         }
 
         public List<String> ls(String path) {
             File file = findFile(path, false);
+            List<String> res = new ArrayList<>();
             if (file == null) return null;
-            List<String> files = new ArrayList<>();
-            if (file.content.length() > 0) files.add(file.name);
-            else files.addAll(file.directoryFiles.keySet());
-            return files;
+            if (file.content.length() > 0) res.add(file.name);
+            else res.addAll(file.files.keySet());
+            return res;
         }
 
         public void mkdir(String path) {
@@ -46,23 +58,5 @@ public class Q588 {
             File file = findFile(filePath, true);
             return file.content.toString();
         }
-
-        private File findFile(String path, boolean create) {
-            String[] split = path.split("/");
-            File cur = root;
-            for (String s : split) {
-                if (s.equals("")) continue;
-                if (!cur.directoryFiles.containsKey(s)) {
-                    if (create) {
-                        cur.directoryFiles.put(s, new File(s));
-                    } else {
-                        return null;
-                    }
-                }
-                cur = cur.directoryFiles.get(s);
-            }
-            return cur;
-        }
-
     }
 }

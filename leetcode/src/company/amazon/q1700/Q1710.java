@@ -8,10 +8,12 @@ public class Q1710 {
         int res = 0;
         for (int[] boxType : boxTypes) {
             if (truckSize == 0) break;
-            while (truckSize > 0 && boxType[0] > 0) {
-                res += boxType[1];
-                boxType[0]--;
-                truckSize--;
+            if (truckSize > boxType[0]) {
+                res += boxType[0] * boxType[1];
+                truckSize -= boxType[0];
+            } else {
+                res += truckSize * boxType[1];
+                truckSize = 0;
             }
         }
         return res;

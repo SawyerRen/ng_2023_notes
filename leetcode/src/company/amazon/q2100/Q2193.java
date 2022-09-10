@@ -9,10 +9,8 @@ public class Q2193 {
             char c2 = builder.charAt(builder.length() - 1);
             int index1 = builder.lastIndexOf(String.valueOf(c1));
             int index2 = builder.indexOf(String.valueOf(c2));
-
-            int length1 = builder.length() - 1 - index1;
+            int length1 = builder.length() - index1 - 1;
             int length2 = index2;
-
             if (length1 < length2) {
                 res += length1;
                 builder.deleteCharAt(index1).deleteCharAt(0);

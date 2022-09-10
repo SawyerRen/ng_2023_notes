@@ -7,9 +7,9 @@ public class Q973 {
     public int[][] kClosest(int[][] points, int k) {
         int left = 0, right = points.length - 1;
         while (left < right) {
-            int pivotIndex = findPivot(points, left, right);
-            if (pivotIndex >= k) right = pivotIndex;
-            else left = pivotIndex + 1;
+            int index = helper(points, left, right);
+            if (index >= k) right = index;
+            else left = index + 1;
         }
         int[][] res = new int[k][2];
         for (int i = 0; i < res.length; i++) {
@@ -18,14 +18,14 @@ public class Q973 {
         return res;
     }
 
-    private int findPivot(int[][] points, int left, int right) {
+    private int helper(int[][] points, int left, int right) {
         int randomIndex = left + new Random().nextInt(right - left + 1);
-        swap(points, left, randomIndex);
-        int pivot = dist(points[left]);
+        swap(points, randomIndex, left);
+        int pivot = calDist(points[left]);
         int i = left, j = right;
         while (i < j) {
-            while (i < j && dist(points[j]) >= pivot) j--;
-            while (i < j && dist(points[i]) <= pivot) i++;
+            while (i < j && calDist(points[j]) >= pivot) j--;
+            while (i < j && calDist(points[i]) <= pivot) i++;
             if (i < j) swap(points, i, j);
         }
         swap(points, left, i);
@@ -38,12 +38,8 @@ public class Q973 {
         points[j] = p;
     }
 
-    int dist(int[] p) {
-        return p[0] * p[0] + p[1] * p[1];
-    }
-
     public int[][] kClosest1(int[][] points, int k) {
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> dist(b) - dist(a));
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> calDist(b) - calDist(a));
         for (int[] point : points) {
             pq.add(point);
             if (pq.size() > k) pq.poll();
@@ -55,5 +51,7 @@ public class Q973 {
         return res;
     }
 
-
+    int calDist(int[] p) {
+        return p[0] * p[0] + p[1] * p[1];
+    }
 }

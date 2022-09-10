@@ -2,12 +2,9 @@ package company.amazon.q2100;
 
 import model.ListNode;
 
-import java.util.List;
-
 public class Q2130 {
     public int pairSum(ListNode head) {
-        if (head == null) return 0;
-        ListNode fast = head, slow = head, pre = slow;
+        ListNode fast = head, slow = head, pre = head;
         while (fast != null && fast.next != null) {
             pre = slow;
             slow = slow.next;
@@ -15,8 +12,8 @@ public class Q2130 {
         }
         pre.next = null;
         ListNode head2 = reverse(slow);
-        int res = Integer.MIN_VALUE;
-        while (head != null) {
+        int res = head.val + head2.val;
+        while (head != null && head2 != null) {
             res = Math.max(res, head.val + head2.val);
             head = head.next;
             head2 = head2.next;

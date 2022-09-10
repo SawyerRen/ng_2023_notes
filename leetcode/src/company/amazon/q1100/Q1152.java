@@ -12,28 +12,29 @@ public class Q1152 {
             map.get(username[i]).add(new Pair<>(timestamp[i], website[i]));
         }
         Map<String, Integer> countMap = new HashMap<>();
-        int maxCount = 0;
-        String s = "";
-        for (List<Pair<Integer, String>> pairList : map.values()) {
-            pairList.sort((a, b) -> a.getKey() - b.getKey());
+        String res = "";
+        int max = 0;
+        for (String name : map.keySet()) {
+            List<Pair<Integer, String>> list = map.get(name);
+            list.sort((a, b) -> a.getKey() - b.getKey());
             Set<String> set = new HashSet<>();
-            for (int i = 0; i < pairList.size() - 2; i++) {
-                for (int j = i + 1; j < pairList.size() - 1; j++) {
-                    for (int k = j + 1; k < pairList.size(); k++) {
-                        String pattern = pairList.get(i).getValue() + "_" + pairList.get(j).getValue() + "_" + pairList.get(k).getValue();
+            for (int i = 0; i < list.size() - 2; i++) {
+                for (int j = i + 1; j < list.size() - 1; j++) {
+                    for (int k = j + 1; k < list.size(); k++) {
+                        String pattern = list.get(i).getValue() + "-" + list.get(j).getValue() + "-" + list.get(k).getValue();
                         if (set.contains(pattern)) continue;
-                        countMap.put(pattern, countMap.getOrDefault(pattern, 0) + 1);
                         set.add(pattern);
-                        if (countMap.get(pattern) > maxCount) {
-                            maxCount = countMap.get(pattern);
-                            s = pattern;
-                        } else if (countMap.get(pattern) == maxCount && pattern.compareTo(s) < 0) {
-                            s = pattern;
+                        countMap.put(pattern, countMap.getOrDefault(pattern, 0) + 1);
+                        if (countMap.get(pattern) > max) {
+                            max = countMap.get(pattern);
+                            res = pattern;
+                        } else if (countMap.get(pattern) == max && res.compareTo(pattern) > 0) {
+                            res = pattern;
                         }
                     }
                 }
             }
         }
-        return new ArrayList<>(Arrays.asList(s.split("_")));
+        return new ArrayList<>(Arrays.asList(res.split("-")));
     }
 }

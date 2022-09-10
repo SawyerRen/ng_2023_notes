@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class Q146 {
     class LRUCache {
+        DLL list = new DLL();
         Map<Integer, Node> map = new HashMap<>();
-        NodeList nodeList = new NodeList();
         int capacity;
 
         public LRUCache(int capacity) {
@@ -16,41 +16,38 @@ public class Q146 {
         public int get(int key) {
             if (!map.containsKey(key)) return -1;
             Node node = map.get(key);
-            put(key, node.value);
-            return node.value;
+            put(key, node.val);
+            return node.val;
         }
 
         public void put(int key, int value) {
             Node node = new Node(key, value);
             if (map.containsKey(key)) {
-                nodeList.remove(map.get(key));
+                list.remove(map.get(key));
             } else {
-                if (nodeList.size == capacity) {
-                    int lastKey = nodeList.removeLast();
+                if (list.size == capacity) {
+                    int lastKey = list.removeLast();
                     map.remove(lastKey);
                 }
             }
             map.put(key, node);
-            nodeList.addFirst(node);
+            list.addFirst(node);
         }
     }
 
-    class NodeList {
-        Node head;
-        Node tail;
+    class DLL {
+        Node head = new Node();
+        Node tail = new Node();
         int size;
 
-        public NodeList() {
-            head = new Node();
-            tail = new Node();
+        public DLL() {
             head.next = tail;
             tail.pre = head;
-            size = 0;
         }
 
         void addFirst(Node node) {
             node.next = head.next;
-            node.next.pre = node;
+            head.next.pre = node;
             node.pre = head;
             head.next = node;
             size++;
@@ -64,25 +61,25 @@ public class Q146 {
 
         int removeLast() {
             Node last = tail.pre;
-            last.pre.next = tail;
-            tail.pre = last.pre;
+            last.next.pre = last.pre;
+            last.pre.next = last.next;
             size--;
             return last.key;
         }
     }
 
     class Node {
-        int key;
-        int value;
         Node pre;
         Node next;
-
-        public Node(int key, int value) {
-            this.key = key;
-            this.value = value;
-        }
+        int key;
+        int val;
 
         public Node() {
+        }
+
+        public Node(int key, int val) {
+            this.key = key;
+            this.val = val;
         }
     }
 }
