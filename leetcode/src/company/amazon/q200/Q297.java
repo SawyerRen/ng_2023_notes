@@ -5,7 +5,7 @@ import model.TreeNode;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.TreeSet;
+import java.util.TreeMap;
 
 public class Q297 {
     public class Codec {
@@ -13,18 +13,18 @@ public class Q297 {
         // Encodes a tree to a single string.
         public String serialize(TreeNode root) {
             StringBuilder builder = new StringBuilder();
-            _serialize(builder, root);
+            _ser(root, builder);
             return builder.toString();
         }
 
-        private void _serialize(StringBuilder builder, TreeNode root) {
+        private void _ser(TreeNode root, StringBuilder builder) {
             if (root == null) {
-                builder.append("null,");
+                builder.append("null").append(",");
                 return;
             }
             builder.append(root.val).append(",");
-            _serialize(builder, root.left);
-            _serialize(builder, root.right);
+            _ser(root.left, builder);
+            _ser(root.right, builder);
         }
 
         // Decodes your encoded data to tree.

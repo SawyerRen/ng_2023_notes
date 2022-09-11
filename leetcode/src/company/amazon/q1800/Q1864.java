@@ -2,25 +2,26 @@ package company.amazon.q1800;
 
 public class Q1864 {
     public int minSwaps(String s) {
-        int n = s.length();
-        int count1 = 0;
+        int count0 = 0, count1 = 0;
         for (char c : s.toCharArray()) {
             if (c == '1') count1++;
+            else count0++;
         }
-        if (count1 * 2 > n + 1 || count1 * 2 < n - 1) return -1;
-        if (n % 2 == 1) {
-            if (count1 * 2 == n - 1) return getMinSwap('0', n, s);
-            else return getMinSwap('1', n, s);
+        if (count1 > count0 + 1 || count0 > count1 + 1) return -1;
+        if (count1 > count0) {
+            return helper(s, '1');
+        } else if (count1 < count0) {
+            return helper(s, '0');
         } else {
-            return Math.min(getMinSwap('0', n, s), getMinSwap('1', n, s));
+            return Math.min(helper(s, '0'), helper(s, '1'));
         }
     }
 
-    private int getMinSwap(char curNum, int n, String s) {
+    private int helper(String s, char cur) {
         int count = 0;
-        for (int i = 0; i < n; i++) {
-            if (s.charAt(i) != curNum) count++;
-            curNum = curNum == '1' ? '0' : '1';
+        for (char c : s.toCharArray()) {
+            if (c != cur) count++;
+            cur = cur == '1' ? '0' : '1';
         }
         return count / 2;
     }

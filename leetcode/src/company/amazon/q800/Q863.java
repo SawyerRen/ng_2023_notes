@@ -10,7 +10,7 @@ import java.util.Map;
 public class Q863 {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         Map<TreeNode, Integer> map = new HashMap<>();
-        findTarget(map, root, target);
+        findTarget(root, target, map);
         List<Integer> res = new ArrayList<>();
         dfs(res, map, root, k, 0);
         return res;
@@ -24,19 +24,19 @@ public class Q863 {
         dfs(res, map, root.right, k, dist + 1);
     }
 
-    private int findTarget(Map<TreeNode, Integer> map, TreeNode root, TreeNode target) {
+    private int findTarget(TreeNode root, TreeNode target, Map<TreeNode, Integer> map) {
         if (root == null) return -1;
         if (root == target) {
             map.put(root, 0);
             return 0;
         }
-        int left = findTarget(map, root.left, target);
-        if (left != -1) {
+        int left = findTarget(root.left, target, map);
+        if (left >= 0) {
             map.put(root, left + 1);
             return left + 1;
         }
-        int right = findTarget(map, root.right, target);
-        if (right != -1) {
+        int right = findTarget(root.right, target, map);
+        if (right >= 0) {
             map.put(root, right + 1);
             return right + 1;
         }

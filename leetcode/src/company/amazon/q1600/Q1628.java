@@ -50,10 +50,10 @@ public class Q1628 {
         Node buildTree(String[] postfix) {
             Stack<TreeNode> stack = new Stack<>();
             for (String s : postfix) {
-                if (s.equals("+") || s.equals("-") || s.equals("/") || s.equals("*")) {
-                    TreeNode root = new TreeNode(s);
+                if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")) {
                     TreeNode right = stack.pop();
                     TreeNode left = stack.pop();
+                    TreeNode root = new TreeNode(s);
                     root.left = left;
                     root.right = right;
                     stack.push(root);
@@ -61,7 +61,7 @@ public class Q1628 {
                     stack.push(new TreeNode(s));
                 }
             }
-            return stack.peek();
+            return stack.pop();
         }
     }
 }
