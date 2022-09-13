@@ -1,14 +1,15 @@
 package company.amazon.q300;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Q353 {
     class SnakeGame {
         int width;
         int height;
+        int[][] board;
         int[][] food;
         int foodIndex = 0;
-        Set<Integer> visited = new HashSet<>();
         LinkedList<int[]> queue = new LinkedList<>();
         boolean end = false;
 
@@ -16,8 +17,10 @@ public class Q353 {
             this.width = width;
             this.height = height;
             this.food = food;
-            visited.add(0);
-            queue.add(new int[]{0, 0});
+            board = new int[height][width];
+            queue.addLast(new int[]{0, 0});
+            board[0][0] = 1;
+            if (food[0][0] == 0 && food[0][1] == 0) foodIndex++;
         }
 
         public int move(String direction) {
@@ -38,19 +41,19 @@ public class Q353 {
                     i++;
                     break;
             }
-            int[] last = queue.peekLast();
-            visited.remove(last[0] * width + last[1]);
-            if (i < 0 || i >= height || j < 0 || j >= width || visited.contains(i * width + j)) {
+            int[] tail = queue.getLast();
+            board[tail[0]][tail[1]] = 0;
+            if (i < 0 || i >= height || j < 0 || j >= width || board[i][j] == 1) {
                 end = true;
                 return -1;
             }
             queue.addFirst(new int[]{i, j});
-            visited.add(i * width + j);
+            board[i][j] = 1;
             if (foodIndex < food.length && i == food[foodIndex][0] && j == food[foodIndex][1]) {
                 foodIndex++;
-                visited.add(last[0] * width + last[1]);
+                board[tail[0]][tail[1]] = 1;
             } else {
-                queue.pollLast();
+                queue.removeLast();
             }
             return foodIndex;
         }
