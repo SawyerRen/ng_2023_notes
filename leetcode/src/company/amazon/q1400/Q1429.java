@@ -1,20 +1,12 @@
 package company.amazon.q1400;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Q1429 {
-    class Node {
-        int val;
-
-        public Node(int val) {
-            this.val = val;
-        }
-    }
-
     class FirstUnique {
-        LinkedList<Node> list = new LinkedList<>();
-        Map<Integer, Node> uniqueMap = new HashMap<>();
-        Set<Integer> duplicateSet = new HashSet<>();
+        LinkedHashSet<Integer> unique = new LinkedHashSet<>();
+        HashSet<Integer> duplicate = new HashSet<>();
 
         public FirstUnique(int[] nums) {
             for (int num : nums) {
@@ -23,20 +15,17 @@ public class Q1429 {
         }
 
         public int showFirstUnique() {
-            if (list.isEmpty()) return -1;
-            return list.getFirst().val;
+            if (!unique.iterator().hasNext()) return -1;
+            return unique.iterator().next();
         }
 
-        public void add(int value) {
-            if (duplicateSet.contains(value)) return;
-            if (uniqueMap.containsKey(value)) {
-                list.remove(uniqueMap.get(value));
-                uniqueMap.remove(value);
-                duplicateSet.add(value);
+        public void add(int num) {
+            if (duplicate.contains(num)) return;
+            if (unique.contains(num)) {
+                unique.remove(num);
+                duplicate.add(num);
             } else {
-                Node node = new Node(value);
-                list.addLast(node);
-                uniqueMap.put(value, node);
+                unique.add(num);
             }
         }
     }

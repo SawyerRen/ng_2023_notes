@@ -11,13 +11,13 @@ public class Q273 {
     }
 
     private String helper(int num) {
-        String s = "";
-        if (num < 20) s = belowTwenty[num];
-        else if (num < 100) s = tens[num / 10] + " " + belowTwenty[num % 10];
-        else if (num < 1000) s = helper(num / 100) + " Hundred " + helper(num % 100);
-        else if (num < 1000000) s = helper(num / 1000) + " Thousand " + helper(num % 1000);
-        else if (num < 1000000000) s = helper(num / 1000000) + " Million " + helper(num % 1000000);
-        else s = helper(num / 1000000000) + " Billion " + helper(num % 1000000000);
-        return s.trim();
+        String res = "";
+        if (num < 20) res = belowTwenty[num];
+        else if (num < 100) res = tens[num / 10] + " " + helper(num % 10);
+        else if (num < 1000) res = helper(num / 100) + " Hundred " + helper(num % 100);
+        else if (num < 1000000) res = helper(num / 1000) + " Thousand " + helper(num % 1000);
+        else if (num < 1000000000) res = helper(num / 1000000) + " Million " + helper(num % 1000000);
+        else res = helper(num / 1000000000) + " Billion " + helper(num % 1000000000);
+        return res.trim();
     }
 }

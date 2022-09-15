@@ -11,25 +11,25 @@ public class Q1152 {
             map.putIfAbsent(username[i], new ArrayList<>());
             map.get(username[i]).add(new Pair<>(timestamp[i], website[i]));
         }
-        Map<String, Integer> countMap = new HashMap<>();
         String res = "";
         int max = 0;
-        for (String name : map.keySet()) {
-            List<Pair<Integer, String>> list = map.get(name);
+        Map<String, Integer> countMap = new HashMap<>();
+        for (List<Pair<Integer, String>> list : map.values()) {
             list.sort((a, b) -> a.getKey() - b.getKey());
             Set<String> set = new HashSet<>();
             for (int i = 0; i < list.size() - 2; i++) {
                 for (int j = i + 1; j < list.size() - 1; j++) {
                     for (int k = j + 1; k < list.size(); k++) {
                         String pattern = list.get(i).getValue() + "-" + list.get(j).getValue() + "-" + list.get(k).getValue();
-                        if (set.contains(pattern)) continue;
-                        set.add(pattern);
-                        countMap.put(pattern, countMap.getOrDefault(pattern, 0) + 1);
-                        if (countMap.get(pattern) > max) {
-                            max = countMap.get(pattern);
-                            res = pattern;
-                        } else if (countMap.get(pattern) == max && res.compareTo(pattern) > 0) {
-                            res = pattern;
+                        if (!set.contains(pattern)) {
+                            countMap.put(pattern, countMap.getOrDefault(pattern, 0) + 1);
+                            set.add(pattern);
+                            if (countMap.get(pattern) > max) {
+                                max = countMap.get(pattern);
+                                res = pattern;
+                            } else if (countMap.get(pattern) == max && pattern.compareTo(res) < 0) {
+                                res = pattern;
+                            }
                         }
                     }
                 }

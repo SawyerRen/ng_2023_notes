@@ -7,9 +7,9 @@ public class Q973 {
     public int[][] kClosest(int[][] points, int k) {
         int left = 0, right = points.length - 1;
         while (left < right) {
-            int index = helper(points, left, right);
-            if (index >= k) right = index;
-            else left = index + 1;
+            int pivotIndex = partition(points, left, right);
+            if (pivotIndex >= k) right = pivotIndex;
+            else left = pivotIndex + 1;
         }
         int[][] res = new int[k][2];
         for (int i = 0; i < res.length; i++) {
@@ -18,7 +18,7 @@ public class Q973 {
         return res;
     }
 
-    private int helper(int[][] points, int left, int right) {
+    private int partition(int[][] points, int left, int right) {
         int randomIndex = left + new Random().nextInt(right - left + 1);
         swap(points, randomIndex, left);
         int pivot = calDist(points[left]);
@@ -44,7 +44,7 @@ public class Q973 {
             pq.add(point);
             if (pq.size() > k) pq.poll();
         }
-        int[][] res = new int[k][2];
+        int[][] res = new int[pq.size()][2];
         for (int i = 0; i < res.length; i++) {
             res[i] = pq.poll();
         }

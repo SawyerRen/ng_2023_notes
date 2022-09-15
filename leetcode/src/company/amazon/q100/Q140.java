@@ -6,10 +6,11 @@ public class Q140 {
     Map<String, List<String>> map = new HashMap<>();
 
     public List<String> wordBreak(String s, List<String> wordDict) {
-        return helper(s, new HashSet<>(wordDict));
+        Set<String> wordSet = new HashSet<>(wordDict);
+        return helper(s, wordSet);
     }
 
-    private List<String> helper(String s, HashSet<String> wordSet) {
+    private List<String> helper(String s, Set<String> wordSet) {
         if (map.containsKey(s)) return map.get(s);
         List<String> res = new ArrayList<>();
         if (s.equals("")) {

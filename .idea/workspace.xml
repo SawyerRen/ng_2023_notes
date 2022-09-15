@@ -23,99 +23,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q76.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1000/Q1007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1000/Q1011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1000/Q1038.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1000/Q1041.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1000/Q1091.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1100/Q1110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1100/Q1166.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1100/Q1167.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1200/Q1209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1200/Q1293.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1300/Q1372.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1400/Q1423.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1400/Q1429.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1400/Q1497.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1500/Q1525.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1600/Q1642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1800/Q1834.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q269.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q277.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q286.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q289.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q2100/Q2115.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q2100/Q2195.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q2200/Q2256.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q304.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q323.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q373.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q378.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q380.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q399.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q400/Q402.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q400/Q417.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q400/Q449.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q400/Q496.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q500/Q540.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q500/Q547.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q500/Q556.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q500/Q560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q500/Q581.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q658.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q670.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q688.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q692.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q694.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q695.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q600/Q696.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q700/Q733.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q700/Q785.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q800/Q823.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q800/Q838.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q800/Q841.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q800/Q875.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q935.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q979.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q993.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q15.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q22.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q1100/Q1151.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1100/Q1151.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q1400/Q1438.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1400/Q1438.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q347.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1291.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q135.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1628.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q212.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q227.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q295.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q348.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q399.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q632.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q735.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q907.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q909.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q99.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q994.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood2/ChessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood2/LibrarySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood2/ParkingLotSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood2/SetWithExpiration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood2/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood2/UnixFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1600/Q1696.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q400/Q415.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q500/Q523.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q23.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q42.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q0/Q42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q127.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q127.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q140.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q140.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q146.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q100/Q146.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q1100/Q1152.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1100/Q1152.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q1200/Q1268.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1200/Q1268.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q1400/Q1429.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1400/Q1429.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q1500/Q1567.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q1500/Q1567.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q210.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q210.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q227.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q227.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q253.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q253.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q273.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q200/Q273.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q353.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q300/Q353.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q926.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q926.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q981.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q981.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q400/Q472.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q400/Q472.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q973.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/q900/Q973.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,6 +273,10 @@
       <workItem from="1662930223094" duration="21693000" />
       <workItem from="1663014596806" duration="2094000" />
       <workItem from="1663020392889" duration="1648000" />
+      <workItem from="1663080494263" duration="5806000" />
+      <workItem from="1663113555747" duration="1764000" />
+      <workItem from="1663125974839" duration="15717000" />
+      <workItem from="1663188324553" duration="11849000" />
     </task>
     <servers />
   </component>
@@ -341,10 +300,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="531" y="48" key="#Project_Structure/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662148245822" />
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1662993289825">
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1663202075743">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662993289825" />
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1663202075743" />
     <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1662648852444" />
     <state x="1147" y="216" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1019@0.25.1792.1019" timestamp="1661964916188" />
     <state width="1730" height="352" key="GridCell.Tab.0.bottom" timestamp="1662664069564">

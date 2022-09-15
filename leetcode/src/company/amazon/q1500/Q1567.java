@@ -8,14 +8,14 @@ public class Q1567 {
         positive[0] = nums[0] > 0 ? 1 : 0;
         negative[0] = nums[0] < 0 ? 1 : 0;
         int res = positive[0];
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < n; i++) {
             if (nums[i] == 0) {
                 positive[i] = 0;
                 negative[i] = 0;
             } else if (nums[i] < 0) {
                 positive[i] = negative[i - 1] > 0 ? negative[i - 1] + 1 : 0;
                 negative[i] = positive[i - 1] > 0 ? positive[i - 1] + 1 : 1;
-            } else {
+            } else if (nums[i] > 0) {
                 positive[i] = positive[i - 1] + 1;
                 negative[i] = negative[i - 1] > 0 ? negative[i - 1] + 1 : 0;
             }

@@ -1,11 +1,12 @@
 package company.amazon.q0;
 
+import com.sun.org.apache.bcel.internal.generic.LNEG;
 import model.ListNode;
 
 import java.util.PriorityQueue;
 
 public class Q23 {
-    public ListNode mergeKLists1(ListNode[] lists) {
+    public ListNode mergeKLists(ListNode[] lists) {
         return helper(lists, 0, lists.length - 1);
     }
 
@@ -18,25 +19,25 @@ public class Q23 {
         return merge(l1, l2);
     }
 
-    public ListNode merge(ListNode list1, ListNode list2) {
+    private ListNode merge(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode();
         ListNode cur = dummy;
-        while (list1 != null && list2 != null) {
-            if (list1.val < list2.val) {
-                cur.next = list1;
-                list1 = list1.next;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                cur.next = l1;
+                l1 = l1.next;
             } else {
-                cur.next = list2;
-                list2 = list2.next;
+                cur.next = l2;
+                l2 = l2.next;
             }
             cur = cur.next;
         }
-        if (list1 != null) cur.next = list1;
-        else cur.next = list2;
+        if (l1 != null) cur.next = l1;
+        else cur.next = l2;
         return dummy.next;
     }
 
-    public ListNode mergeKLists(ListNode[] lists) {
+    public ListNode mergeKLists1(ListNode[] lists) {
         PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
         for (ListNode list : lists) {
             if (list != null) pq.add(list);
@@ -44,10 +45,10 @@ public class Q23 {
         ListNode dummy = new ListNode();
         ListNode cur = dummy;
         while (!pq.isEmpty()) {
-            ListNode poll = pq.poll();
-            cur.next = poll;
+            ListNode node = pq.poll();
+            cur.next = node;
             cur = cur.next;
-            if (poll.next != null) pq.add(poll.next);
+            if (node.next != null) pq.add(node.next);
         }
         return dummy.next;
     }

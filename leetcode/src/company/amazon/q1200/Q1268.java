@@ -13,12 +13,12 @@ public class Q1268 {
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
         Arrays.sort(products);
         Node root = new Node();
-        for (String product : products) {
+        for (String p : products) {
             Node cur = root;
-            for (char c : product.toCharArray()) {
+            for (char c : p.toCharArray()) {
                 if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new Node();
                 cur = cur.children[c - 'a'];
-                if (cur.list.size() < 3) cur.list.add(product);
+                if (cur.list.size() < 3) cur.list.add(p);
             }
         }
         List<List<String>> res = new ArrayList<>();

@@ -1,12 +1,12 @@
-package company.amazon.q200;
+package company.amazon.finalround;
 
 import java.util.Stack;
 
 public class Q227 {
     public int calculate(String s) {
-        int num = 0;
-        char sign = '+';
         Stack<Integer> stack = new Stack<>();
+        char sign = '+';
+        int num = 0;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (Character.isDigit(c)) {
@@ -16,7 +16,7 @@ public class Q227 {
                     i++;
                 }
             }
-            if (i == s.length() - 1 || s.charAt(i) != ' ') {
+            if (i == s.length() - 1 || (s.charAt(i) != ' ' && !Character.isDigit(s.charAt(i)))) {
                 switch (sign) {
                     case '+':
                         stack.push(num);
@@ -29,13 +29,16 @@ public class Q227 {
                         break;
                     case '/':
                         stack.push(stack.pop() / num);
+                        break;
                 }
-                sign = c;
+                sign = s.charAt(i);
                 num = 0;
             }
         }
         int res = 0;
-        while (!stack.isEmpty()) res += stack.pop();
+        while (!stack.isEmpty()) {
+            res += stack.pop();
+        }
         return res;
     }
 }
