@@ -8,12 +8,14 @@ public class Q1628 {
         // define your fields here
     }
 
-    class TreeNode extends Node {
-        String val;
-        TreeNode left;
-        TreeNode right;
+    ;
 
-        public TreeNode(String val) {
+    class PostFixNode extends Node {
+        PostFixNode left;
+        PostFixNode right;
+        String val;
+
+        public PostFixNode(String val) {
             this.val = val;
         }
 
@@ -22,14 +24,14 @@ public class Q1628 {
             return helper(this);
         }
 
-        private int helper(TreeNode root) {
-            if (root == null) return 0;
-            if (root.left == null && root.right == null) {
-                return Integer.parseInt(root.val);
+        private int helper(PostFixNode node) {
+            if (node == null) return 0;
+            if (node.left == null && node.right == null) {
+                return Integer.parseInt(node.val);
             }
-            int left = helper(root.left);
-            int right = helper(root.right);
-            switch (root.val) {
+            int left = helper(node.left);
+            int right = helper(node.right);
+            switch (node.val) {
                 case "+":
                     return left + right;
                 case "-":
@@ -50,17 +52,17 @@ public class Q1628 {
 
     class TreeBuilder {
         Node buildTree(String[] postfix) {
-            Stack<TreeNode> stack = new Stack<>();
+            Stack<PostFixNode> stack = new Stack<>();
             for (String s : postfix) {
-                if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")) {
-                    TreeNode node = new TreeNode(s);
-                    TreeNode right = stack.pop();
-                    TreeNode left = stack.pop();
+                if (s.equals("+") || s.equals("-") || s.equals("/") || s.equals("*")) {
+                    PostFixNode right = stack.pop();
+                    PostFixNode left = stack.pop();
+                    PostFixNode node = new PostFixNode(s);
                     node.left = left;
                     node.right = right;
                     stack.push(node);
                 } else {
-                    stack.push(new TreeNode(s));
+                    stack.push(new PostFixNode(s));
                 }
             }
             return stack.pop();
