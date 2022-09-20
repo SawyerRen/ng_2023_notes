@@ -20,7 +20,6 @@ public class FindElevator {
         }
     }
 
-
     class Elevator {
         int curFloor;
         Set<Integer> upStops = new HashSet<>();

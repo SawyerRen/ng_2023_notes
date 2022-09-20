@@ -23,67 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1038.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1041.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q112.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1372.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1423.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1429.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1525.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q224.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q277.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q353.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q373.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q378.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q449.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q496.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q503.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q540.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q556.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q581.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q658.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q670.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q688.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q694.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q696.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q721.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q76.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q787.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q823.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q827.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q841.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q875.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q926.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q93.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q937.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q979.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q981.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q983.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/finalround/ChessGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/finalround/LinuxFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/finalround/ParkingLotSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/finalround/SetWithExpiration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/finalround/SnakeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/finalround/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1628.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1628.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/PirateTalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q1010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q1197.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q1200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q1326.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q1334.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q1465.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q1487.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q2016.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q336.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Q647.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/MaxEvenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/N2KGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/Q336.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other/FindRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other/FindScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other/IntervalUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1300/Q1359.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1011.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1011.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1372.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q1372.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q373.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q373.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q979.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/finalround/Q979.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/elevator/FindElevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/amazon/ood/elevator/FindElevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q100/Q138.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q100/Q138.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q1600/Q1628$TreeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q1600/Q1628$TreeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q1600/Q1628$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q1600/Q1628$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q2100/Q2104.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q2100/Q2104.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q300/Q353$SnakeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q300/Q353$SnakeGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q300/Q353.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/company/amazon/q300/Q353.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,22 +109,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Application.Q22">
-    <configuration name="CurrencyConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.uber.other.CurrencyConversion" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="company.uber.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.uber.other.LongestPath" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="company.expedia.oa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PirateTalk">
+    <configuration name="FindRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.uber.other.FindRobot" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -193,6 +154,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PirateTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.expedia.PirateTalk" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.expedia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.amazon.q0.Q22" />
       <module name="leetcode" />
@@ -221,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PirateTalk" />
+        <item itemvalue="Application.FindRobot" />
         <item itemvalue="Application.Q22" />
         <item itemvalue="Application.MinSwapsToMove1And0ToBothSides" />
         <item itemvalue="Application.NewMap" />
-        <item itemvalue="Application.LongestPath" />
-        <item itemvalue="Application.CurrencyConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +266,11 @@
       <workItem from="1663113555747" duration="1764000" />
       <workItem from="1663125974839" duration="15717000" />
       <workItem from="1663188324553" duration="23686000" />
-      <workItem from="1663276353423" duration="14834000" />
+      <workItem from="1663276353423" duration="15045000" />
+      <workItem from="1663335419367" duration="5341000" />
+      <workItem from="1663554261780" duration="5346000" />
+      <workItem from="1663623653003" duration="8504000" />
+      <workItem from="1663641686150" duration="1413000" />
     </task>
     <servers />
   </component>
@@ -316,34 +294,34 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="531" y="48" key="#Project_Structure/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662148245822" />
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1663295080199">
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1663558737368">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1663295080199" />
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1663558737368" />
     <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1662648852444" />
     <state x="1147" y="216" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1019@0.25.1792.1019" timestamp="1661964916188" />
-    <state width="1730" height="352" key="GridCell.Tab.0.bottom" timestamp="1662664069564">
+    <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1663638046640">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1730" height="352" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662664069564" />
+    <state width="1218" height="493" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1663638046640" />
     <state width="1730" height="352" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
-    <state width="1730" height="352" key="GridCell.Tab.0.center" timestamp="1662664069563">
+    <state width="1218" height="493" key="GridCell.Tab.0.center" timestamp="1663638046639">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1730" height="352" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662664069563" />
+    <state width="1218" height="493" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1663638046639" />
     <state width="1730" height="352" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1730" height="352" key="GridCell.Tab.0.left" timestamp="1662664069562">
+    <state width="1218" height="493" key="GridCell.Tab.0.left" timestamp="1663638046639">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1730" height="352" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662664069562" />
+    <state width="1218" height="493" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1663638046639" />
     <state width="1730" height="352" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1730" height="352" key="GridCell.Tab.0.right" timestamp="1662664069564">
+    <state width="1218" height="493" key="GridCell.Tab.0.right" timestamp="1663638046640">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1730" height="352" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662664069564" />
+    <state width="1218" height="493" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1663638046640" />
     <state width="1730" height="352" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
     <state width="1218" height="435" key="GridCell.Tab.1.bottom" timestamp="1662408845883">
@@ -389,5 +367,10 @@
     <state x="1417" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662657515817" />
     <state x="787" y="25" width="1005" height="1119" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1662648928728" />
     <state x="787" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.1792.1019@0.25.1792.1019" timestamp="1661962337714" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ng_2023_notes$PirateTalk.ic" NAME="PirateTalk Coverage Results" MODIFIED="1663633924225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>company.expedia.*</FILTER>
+    </SUITE>
   </component>
 </project>
