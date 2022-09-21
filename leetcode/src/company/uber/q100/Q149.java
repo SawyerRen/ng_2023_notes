@@ -19,11 +19,11 @@ public class Q149 {
                 int gcd = gcd(diffX, diffY);
                 diffX /= gcd;
                 diffY /= gcd;
-                String slope = diffX + "/" + diffY;
+                String slope = diffY + "/" + diffX;
                 map.put(slope, map.getOrDefault(slope, 0) + 1);
                 max = Math.max(max, map.get(slope));
             }
-            res = Math.max(res, 1 + max + duplicate);
+            res = Math.max(res, 1 + duplicate + max);
         }
         return res;
     }
