@@ -51,8 +51,8 @@ public class Q427 {
         Node bottomRight = helper(grid, i + length / 2, j + length / 2, length / 2);
         if (topLeft.isLeaf && topRight.isLeaf && bottomLeft.isLeaf && bottomRight.isLeaf
                 && topLeft.val == topRight.val && topRight.val == bottomLeft.val && bottomLeft.val == bottomRight.val) {
-            node.val = topLeft.val;
             node.isLeaf = true;
+            node.val = topLeft.val;;
         } else {
             node.topLeft = topLeft;
             node.topRight = topRight;

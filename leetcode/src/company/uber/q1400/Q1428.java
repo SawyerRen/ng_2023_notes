@@ -10,8 +10,9 @@ public class Q1428 {
     }
 
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
-        int m = binaryMatrix.dimensions().get(0), n = binaryMatrix.dimensions().get(1);
-        int res = n;
+        int m = binaryMatrix.dimensions().get(0);
+        int n = binaryMatrix.dimensions().get(1);
+        int col = n;
         for (int i = 0; i < m; i++) {
             int left = 0, right = n;
             while (left < right) {
@@ -19,21 +20,20 @@ public class Q1428 {
                 if (binaryMatrix.get(i, mid) == 1) right = mid;
                 else left = mid + 1;
             }
-            res = Math.min(res, left);
+            col = Math.min(col, left);
         }
-        return res == n ? -1 : res;
+        return col == n ? -1 : col;
     }
 
     public int leftMostColumnWithOne1(BinaryMatrix binaryMatrix) {
-        int m = binaryMatrix.dimensions().get(0), n = binaryMatrix.dimensions().get(1);
-        int row = 0, col = n - 1;
-        while (row < m && col >= 0) {
-            if (binaryMatrix.get(row, col) == 1) {
-                col--;
-            } else {
-                row++;
-            }
+        int m = binaryMatrix.dimensions().get(0);
+        int n = binaryMatrix.dimensions().get(1);
+        int i = 0, j = n - 1;
+        while (i < m && j >= 0) {
+            if (binaryMatrix.get(i, j) == 1) j--;
+            else i++;
         }
-        return col == n - 1 ? -1 : col + 1;
+        if (j == n - 1) return -1;
+        return j + 1;
     }
 }

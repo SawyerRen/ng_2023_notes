@@ -23,19 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q0/Q75.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q100/Q101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q100/Q188.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q200/Q279.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q100/Q149.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q100/Q149.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q100/Q162.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q100/Q162.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q312.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q312.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q354.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q300/Q354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other1/BreakingBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other1/FindPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other1/FindRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other1/FindScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other1/IntervalUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other1/LongestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/other1/NumberOfTrips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q2100/Q2134.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1428.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1400/Q1428.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1842.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1800/Q1842.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q427.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q427.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q465.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q400/Q465.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q564.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q500/Q564.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q815.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q800/Q815.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,15 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,7 +257,10 @@
       <workItem from="1663623653003" duration="8504000" />
       <workItem from="1663641686150" duration="2281000" />
       <workItem from="1663722630329" duration="862000" />
-      <workItem from="1663729066210" duration="3323000" />
+      <workItem from="1663729066210" duration="3390000" />
+      <workItem from="1663804690517" duration="1750000" />
+      <workItem from="1663811651867" duration="4572000" />
+      <workItem from="1663861829359" duration="2925000" />
     </task>
     <servers />
   </component>

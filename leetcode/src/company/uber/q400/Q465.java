@@ -11,9 +11,9 @@ public class Q465 {
             map.put(t[1], map.getOrDefault(t[1], 0) + t[2]);
         }
         int[] debts = new int[map.size()];
-        int i = 0;
+        int index = 0;
         for (Integer value : map.values()) {
-            debts[i++] = value;
+            debts[index++] = value;
         }
         return helper(debts, 0);
     }
@@ -22,11 +22,11 @@ public class Q465 {
         if (index == debts.length) return 0;
         if (debts[index] == 0) return helper(debts, index + 1);
         int res = Integer.MAX_VALUE;
-        for (int next = index + 1; next < debts.length; next++) {
-            if (debts[index] * debts[next] < 0) {
-                debts[next] += debts[index];
+        for (int i = index + 1; i < debts.length; i++) {
+            if (debts[index] * debts[i] < 0) {
+                debts[i] += debts[index];
                 res = Math.min(res, helper(debts, index + 1) + 1);
-                debts[next] -= debts[index];
+                debts[i] -= debts[index];
             }
         }
         return res;
