@@ -1,4 +1,4 @@
-package company.uber.q2100;
+package company.uber.all1;
 
 public class Q2187 {
     public long minimumTime(int[] time, int totalTrips) {

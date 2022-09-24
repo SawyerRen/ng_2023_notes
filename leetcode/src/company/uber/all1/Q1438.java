@@ -1,13 +1,12 @@
-package company.uber.q1400;
+package company.uber.all1;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 public class Q1438 {
     public int longestSubarray(int[] nums, int limit) {
+        int i = 0, j = 0, res = 0;
         LinkedList<Integer> minQueue = new LinkedList<>();
         LinkedList<Integer> maxQueue = new LinkedList<>();
-        int i = 0, j = 0, res = 0;
         while (j < nums.length) {
             while (!minQueue.isEmpty() && minQueue.getLast() > nums[j]) {
                 minQueue.removeLast();
