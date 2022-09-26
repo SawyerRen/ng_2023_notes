@@ -23,47 +23,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1095.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q135.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1740.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1814.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1838.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1861.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q2023.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q212.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q2134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q2333.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q246.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q297.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q305.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q312.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q332.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q380.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q384.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q424.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q428.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q528.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q545.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q636.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q729.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q731.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q759.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q773.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q817.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q827.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q855.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q902.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q930.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q934.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q953.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q986.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q992.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q529.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q529.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q692.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q692.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q118.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q127.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1281.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1293.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1423.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q149.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1929.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q227.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q269.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q279.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q310.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q341.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q362.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q414.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q452.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q494.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q581.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q658.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q682.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q698.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q704.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q740.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q752.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q767.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q785.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q852.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q921.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q994.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,13 +241,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -291,7 +340,10 @@
       <workItem from="1663901491039" duration="877000" />
       <workItem from="1663969162291" duration="6767000" />
       <workItem from="1664031350413" duration="8397000" />
-      <workItem from="1664056239049" duration="8513000" />
+      <workItem from="1664056239049" duration="9028000" />
+      <workItem from="1664124003421" duration="9139000" />
+      <workItem from="1664139872241" duration="10644000" />
+      <workItem from="1664161511677" duration="2135000" />
     </task>
     <servers />
   </component>
@@ -315,10 +367,14 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="531" y="48" key="#Project_Structure/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662148245822" />
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1664075954197">
+    <state x="1377" y="325" width="1120" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664162721469">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664075954197" />
+    <state x="1377" y="325" width="1120" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664162721469" />
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1664148355774">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664148355774" />
     <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1662648852444" />
     <state x="1147" y="216" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1019@0.25.1792.1019" timestamp="1661964916188" />
     <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1664051909151">
