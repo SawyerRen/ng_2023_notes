@@ -23,94 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1235.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q127.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1281.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1293.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1423.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q149.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q162.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q167.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1929.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q205.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q227.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q239.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q253.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q269.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q278.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q279.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q301.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q310.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q341.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q347.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q354.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q362.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q378.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q387.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q414.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q452.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q581.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q658.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q662.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q67.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q682.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q698.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q704.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q721.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q724.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q740.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q75.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q752.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q767.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q785.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q852.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q921.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q994.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/deshaw/CountIntegerPartitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/deshaw/Q1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/deshaw/Q120.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/deshaw/Q1537.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/deshaw/Q41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/deshaw/Q968.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1359.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1423.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q149.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1515.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1838.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q2333.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q414.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q698.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q740.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q759.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q864.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q902.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q992.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/all2/other/BinPack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +116,33 @@
       <recent name="$PROJECT_DIR$/leetcode/src/company/expedia" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntegerFlip">
+  <component name="RunManager" selected="Application.BinPack">
+    <configuration name="BinPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.uber.all2.other.BinPack" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.uber.all2.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountIntegerPartitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.deshaw.CountIntegerPartitions" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.deshaw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.uber.other.FindRobot" />
       <module name="leetcode" />
@@ -202,19 +169,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSwapsToMove1And0ToBothSides" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.amazon.other.MinSwapsToMove1And0ToBothSides" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="company.amazon.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PirateTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.expedia.PirateTalk" />
       <module name="leetcode" />
@@ -228,39 +182,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.amazon.q0.Q22" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="company.amazon.q0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinPack" />
+        <item itemvalue="Application.CountIntegerPartitions" />
         <item itemvalue="Application.IntegerFlip" />
         <item itemvalue="Application.PirateTalk" />
         <item itemvalue="Application.FindRobot" />
-        <item itemvalue="Application.Q22" />
-        <item itemvalue="Application.MinSwapsToMove1And0ToBothSides" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +282,12 @@
       <workItem from="1664056239049" duration="9028000" />
       <workItem from="1664124003421" duration="9139000" />
       <workItem from="1664139872241" duration="10644000" />
-      <workItem from="1664161511677" duration="2135000" />
+      <workItem from="1664161511677" duration="2665000" />
+      <workItem from="1664208603760" duration="1729000" />
+      <workItem from="1664216437973" duration="1462000" />
+      <workItem from="1664226505730" duration="2872000" />
+      <workItem from="1664294481062" duration="10147000" />
+      <workItem from="1664312855094" duration="282000" />
     </task>
     <servers />
   </component>
@@ -371,34 +315,34 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1377" y="325" width="1120" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664162721469" />
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1664148355774">
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1664305258107">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664148355774" />
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664305258107" />
     <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1662648852444" />
     <state x="1147" y="216" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1019@0.25.1792.1019" timestamp="1661964916188" />
-    <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1664051909151">
+    <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1664311208772">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664051909151" />
+    <state width="1218" height="493" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664311208772" />
     <state width="1730" height="352" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
-    <state width="1218" height="493" key="GridCell.Tab.0.center" timestamp="1664051909150">
+    <state width="1218" height="493" key="GridCell.Tab.0.center" timestamp="1664311208771">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664051909150" />
+    <state width="1218" height="493" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664311208771" />
     <state width="1730" height="352" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1218" height="493" key="GridCell.Tab.0.left" timestamp="1664051909150">
+    <state width="1218" height="493" key="GridCell.Tab.0.left" timestamp="1664311208771">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664051909150" />
+    <state width="1218" height="493" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664311208771" />
     <state width="1730" height="352" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1218" height="493" key="GridCell.Tab.0.right" timestamp="1664051909151">
+    <state width="1218" height="493" key="GridCell.Tab.0.right" timestamp="1664311208771">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664051909151" />
+    <state width="1218" height="493" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664311208771" />
     <state width="1730" height="352" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
     <state width="1218" height="435" key="GridCell.Tab.1.bottom" timestamp="1662408845883">
