@@ -23,210 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/FindRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/FindScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/IntervalUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/NumberOfTrips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1293.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1515.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1814.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1838.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1842.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q1861.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q2023.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q212.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q2187.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q239.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q312.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q332.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q341.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q380.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q384.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q399.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q424.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q427.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q463.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q465.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q528.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q529.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q564.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q731.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q733.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q815.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q855.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q902.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/goodluck/Q930.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1008.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q101.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1095.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1152.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q118.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q121.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q122.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q123.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1235.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q127.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1281.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1293.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1344.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q135.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1423.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1428.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1438.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q146.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q149.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1515.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q153.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q16.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q162.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q167.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q17.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1740.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1814.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1838.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1842.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1861.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q1929.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q2023.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q205.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q207.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q212.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q2134.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q217.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q2187.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q22.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q226.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q227.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q23.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q230.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q2333.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q238.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q239.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q246.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q253.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q269.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q27.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q278.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q279.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q287.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q29.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q297.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q301.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q305.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q310.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q312.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q322.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q33.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q332.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q34.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q341.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q347.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q35.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q354.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q36.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q361.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q362.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q37.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q378.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q38.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q380.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q384.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q387.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q394.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q399.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q414.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q42.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q424.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q428.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q45.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q452.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q465.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q48.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q49.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q494.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q50.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q51.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q528.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q529.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q53.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q545.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q56.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q564.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q581.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q636.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q64.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q658.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q662.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q67.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q682.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q692.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q698.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q70.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q704.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q721.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q724.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q729.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q731.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q740.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q75.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q752.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q759.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q767.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q773.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q785.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q79.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q815.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q817.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q827.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q852.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q855.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q902.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q921.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q930.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q934.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q953.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q98.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q986.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q992.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all1/Q994.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1235.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1239.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1359.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1423.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q149.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1515.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q1838.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q205.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q2333.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q29.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q301.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q378.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q414.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q424.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q662.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q698.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q721.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q740.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q759.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q864.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q902.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/Q992.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/all2/other/BinPack.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/BankTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/BinaryGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/ComplementaryPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/DataUpdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/EfficientTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/EvenTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/FindingIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/MaximumScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/expedia/oa/MinimumHealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/other/Q5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,13 +98,13 @@
       <recent name="$PROJECT_DIR$/leetcode/src/company/expedia" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindScores">
-    <configuration name="BinPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.uber.all2.other.BinPack" />
+  <component name="RunManager" selected="Application.EfficientTeams">
+    <configuration name="BankTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.expedia.oa.BankTransaction" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.uber.all2.other.*" />
+          <option name="PATTERN" value="company.expedia.oa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountIntegerPartitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.deshaw.CountIntegerPartitions" />
+    <configuration name="DataUpdates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.expedia.oa.DataUpdates" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.deshaw.*" />
+          <option name="PATTERN" value="company.expedia.oa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.uber.goodluck.FindScores" />
+    <configuration name="EfficientTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.expedia.oa.EfficientTeams" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.uber.goodluck.*" />
+          <option name="PATTERN" value="company.expedia.oa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerFlip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.mathwork.oa.IntegerFlip" />
+    <configuration name="MinimumHealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.expedia.oa.MinimumHealth" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.mathwork.oa.*" />
+          <option name="PATTERN" value="company.expedia.oa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,26 +151,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PirateTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.expedia.PirateTalk" />
+    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.Q5" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.expedia.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindScores" />
-        <item itemvalue="Application.BinPack" />
-        <item itemvalue="Application.CountIntegerPartitions" />
-        <item itemvalue="Application.IntegerFlip" />
-        <item itemvalue="Application.PirateTalk" />
+        <item itemvalue="Application.EfficientTeams" />
+        <item itemvalue="Application.DataUpdates" />
+        <item itemvalue="Application.Q5" />
+        <item itemvalue="Application.MinimumHealth" />
+        <item itemvalue="Application.BankTransaction" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +275,8 @@
       <workItem from="1664324427382" duration="5160000" />
       <workItem from="1664337206420" duration="10314000" />
       <workItem from="1664396432188" duration="4825000" />
-      <workItem from="1664466832803" duration="361000" />
+      <workItem from="1664466832803" duration="1841000" />
+      <workItem from="1664638793745" duration="6468000" />
     </task>
     <servers />
   </component>
@@ -489,28 +310,28 @@
     <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664305258107" />
     <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1662648852444" />
     <state x="1147" y="216" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1019@0.25.1792.1019" timestamp="1661964916188" />
-    <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1664391502952">
+    <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1664649699247">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664391502952" />
+    <state width="1218" height="493" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664649699247" />
     <state width="1730" height="352" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
-    <state width="1218" height="493" key="GridCell.Tab.0.center" timestamp="1664391502951">
+    <state width="1218" height="493" key="GridCell.Tab.0.center" timestamp="1664649699246">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664391502951" />
+    <state width="1218" height="493" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664649699246" />
     <state width="1730" height="352" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1218" height="493" key="GridCell.Tab.0.left" timestamp="1664391502950">
+    <state width="1218" height="493" key="GridCell.Tab.0.left" timestamp="1664649699246">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664391502950" />
+    <state width="1218" height="493" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664649699246" />
     <state width="1730" height="352" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1218" height="493" key="GridCell.Tab.0.right" timestamp="1664391502951">
+    <state width="1218" height="493" key="GridCell.Tab.0.right" timestamp="1664649699246">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664391502951" />
+    <state width="1218" height="493" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664649699246" />
     <state width="1730" height="352" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
     <state width="1218" height="435" key="GridCell.Tab.1.bottom" timestamp="1662408845883">
@@ -533,6 +354,10 @@
     </state>
     <state width="1218" height="435" key="GridCell.Tab.1.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662408845882" />
     <state width="1730" height="311" key="GridCell.Tab.1.right/0.25.1792.1019@0.25.1792.1019" timestamp="1661876412920" />
+    <state x="1574" y="256" key="RollbackChangesDialog" timestamp="1664646858725">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1574" y="256" key="RollbackChangesDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664646858725" />
     <state x="588" y="103" key="SettingsEditor" timestamp="1662232468540">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
