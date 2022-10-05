@@ -14,31 +14,30 @@ public class Q1359 {
             delivery.add("D" + i);
         }
         List<List<String>> res = new ArrayList<>();
-        helper(pickup, delivery, res, new ArrayList<String>(), new boolean[n], new boolean[n]);
+        helper(res, new ArrayList<String>(), pickup, new boolean[n], delivery, new boolean[n]);
         return res.size();
     }
 
-    private void helper(List<String> pickup, List<String> delivery, List<List<String>> res, ArrayList<String> list, boolean[] picked, boolean[] delivered) {
+    private void helper(List<List<String>> res, ArrayList<String> list, List<String> pickup, boolean[] picked, List<String> delivery, boolean[] delivered) {
         if (list.size() == pickup.size() * 2) {
             res.add(new ArrayList<>(list));
+            return;
         }
-        for (int i = 0; i < pickup.size(); i++) {
-            if (!picked[i]) {
-                list.add(pickup.get(i));
-                picked[i] = true;
-                helper(pickup, delivery, res, list, picked, delivered);
-                list.remove(list.size() - 1);
-                picked[i] = false;
-            }
+        for (int i = 0; i < picked.length; i++) {
+            if (picked[i]) continue;
+            picked[i] = true;
+            list.add(pickup.get(i));
+            helper(res, list, pickup, picked, delivery, delivered);
+            picked[i] = false;
+            list.remove(list.size() - 1);
         }
         for (int i = 0; i < delivery.size(); i++) {
-            if (picked[i] && !delivered[i]) {
-                list.add(delivery.get(i));
-                delivered[i] = true;
-                helper(pickup, delivery, res, list, picked, delivered);
-                list.remove(list.size() - 1);
-                delivered[i] = false;
-            }
+            if (delivered[i] || !picked[i]) continue;
+            delivered[i] = true;
+            list.add(delivery.get(i));
+            helper(res, list, pickup, picked, delivery, delivered);
+            delivered[i] = false;
+            list.remove(list.size() - 1);
         }
     }
 }
