@@ -23,11 +23,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bytedance/oa/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bytedance/oa/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/uber/tt/Q384.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/lastround/Q358.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/lastround/Q358.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/uber/q1300/Q1359.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/uber/q1300/Q1359.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1029.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1229.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1244.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1274.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1291.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1331.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1339.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1396.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1472.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1506.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1553.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1570.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1614.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1656.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1698.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1790.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1823.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1854.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q289.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q311.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q314.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q332.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q333.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q381.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q428.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q430.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q445.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q611.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q659.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q665.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q695.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q716.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q723.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q779.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q797.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q935.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q948.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q987.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q99.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,15 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,6 +333,9 @@
       <workItem from="1664851895681" duration="1269000" />
       <workItem from="1664902256291" duration="2290000" />
       <workItem from="1664930518064" duration="313000" />
+      <workItem from="1665069736414" duration="9876000" />
+      <workItem from="1665092850340" duration="129000" />
+      <workItem from="1665093120754" duration="12054000" />
     </task>
     <servers />
   </component>
@@ -306,11 +363,11 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1377" y="325" width="1120" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664162721469" />
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1664817512132">
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1665115152708">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664817512132" />
-    <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1662648852444" />
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665115152708" />
+    <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1665070828070" />
     <state x="1147" y="216" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1019@0.25.1792.1019" timestamp="1661964916188" />
     <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1664843420201">
       <screen x="0" y="25" width="2560" height="1330" />
