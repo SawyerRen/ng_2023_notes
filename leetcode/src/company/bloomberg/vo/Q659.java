@@ -3,7 +3,7 @@ package company.bloomberg.vo;
 import java.util.PriorityQueue;
 
 public class Q659 {
-    class Interval {
+    private class Interval {
         int start;
         int end;
         int length;
