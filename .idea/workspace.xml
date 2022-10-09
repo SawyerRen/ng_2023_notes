@@ -23,124 +23,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1046.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1048.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q113.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q127.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q133.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1332.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1338.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q135.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1358.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1387.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1423.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1470.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q159.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1636.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1647.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q1710.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q174.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q179.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q191.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q199.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q203.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q213.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q2248.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q231.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q237.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q239.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q240.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q257.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q258.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q268.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q295.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q312.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q338.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q387.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q390.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q392.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q404.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q417.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q437.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q441.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q443.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q451.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q490.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q496.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q503.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q509.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q518.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q542.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q543.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q547.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q566.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q583.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q658.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q69.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q697.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q718.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q73.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q739.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q74.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q744.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q746.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q75.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q767.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q769.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q78.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q849.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q86.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q863.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q867.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q875.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q888.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q895.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q90.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q91.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q98.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q138.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q138.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q659.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/vo/Q659.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/CandyCrush1D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/CountPairsSumEqualTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/FirstUniqueCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/GetStringsInMaxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/IntegerCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/MinimumOperationToBecome1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/PrintCoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/ReachOasis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/StableMarriage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/TeamPreference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/ThrottlingGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/WelshOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1029.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q118.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1244.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1396.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1506.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1642.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q1656.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q2303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q314.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q399.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q430.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q437.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q445.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q611.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q652.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q779.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q797.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/tag/Q83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1000/Q1029.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1100/Q1169.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1200/Q1209$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1200/Q1209.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1200/Q1244$Leaderboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1200/Q1244.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1200/Q1274$Sea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1200/Q1274.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1300/Q1396$UndergroundSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1300/Q1396.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1600/Q1656$OrderedStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q1600/Q1656.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q300/Q394.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q400/Q430$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q400/Q430.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/company/bloomberg/q700/Q723.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,13 +152,13 @@
       <recent name="$PROJECT_DIR$/leetcode/src/company/expedia" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q1">
-    <configuration name="DataUpdates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.expedia.oa.DataUpdates" />
+  <component name="RunManager" selected="Application.ThrottlingGateway">
+    <configuration name="CandyCrush1D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.CandyCrush1D" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.expedia.oa.*" />
+          <option name="PATTERN" value="company.bloomberg.mj.tag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EfficientTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.expedia.oa.EfficientTeams" />
+    <configuration name="CountPairsSumEqualTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.CountPairsSumEqualTarget" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.expedia.oa.*" />
+          <option name="PATTERN" value="company.bloomberg.mj.tag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumHealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.expedia.oa.MinimumHealth" />
+    <configuration name="IntegerCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.IntegerCompression" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.expedia.oa.*" />
+          <option name="PATTERN" value="company.bloomberg.mj.tag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa.Q1" />
+    <configuration name="PrintCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.PrintCoinChange" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa.*" />
+          <option name="PATTERN" value="company.bloomberg.mj.tag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.Q5" />
+    <configuration name="ThrottlingGateway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.ThrottlingGateway" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.*" />
+          <option name="PATTERN" value="company.bloomberg.mj.tag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,24 +218,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q1" />
-        <item itemvalue="Application.EfficientTeams" />
-        <item itemvalue="Application.DataUpdates" />
-        <item itemvalue="Application.Q5" />
-        <item itemvalue="Application.MinimumHealth" />
+        <item itemvalue="Application.ThrottlingGateway" />
+        <item itemvalue="Application.CandyCrush1D" />
+        <item itemvalue="Application.IntegerCompression" />
+        <item itemvalue="Application.PrintCoinChange" />
+        <item itemvalue="Application.CountPairsSumEqualTarget" />
       </list>
     </recent_temporary>
   </component>
@@ -395,6 +344,9 @@
       <workItem from="1665093120754" duration="12248000" />
       <workItem from="1665152021298" duration="15945000" />
       <workItem from="1665174441376" duration="15202000" />
+      <workItem from="1665240420368" duration="8661000" />
+      <workItem from="1665256750350" duration="862000" />
+      <workItem from="1665262693129" duration="18073000" />
     </task>
     <servers />
   </component>
@@ -422,55 +374,55 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1377" y="325" width="1120" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664162721469" />
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1665193128362">
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1665330918593">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665193128362" />
+    <state x="1639" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665330918593" />
     <state x="1147" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1665070828070" />
     <state x="1147" y="216" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1019@0.25.1792.1019" timestamp="1661964916188" />
-    <state width="1218" height="493" key="GridCell.Tab.0.bottom" timestamp="1664843420201">
+    <state width="1218" height="492" key="GridCell.Tab.0.bottom" timestamp="1665288175679">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664843420201" />
+    <state width="1218" height="492" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665288175679" />
     <state width="1730" height="352" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
-    <state width="1218" height="493" key="GridCell.Tab.0.center" timestamp="1664843420200">
+    <state width="1218" height="492" key="GridCell.Tab.0.center" timestamp="1665288175673">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664843420200" />
+    <state width="1218" height="492" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665288175673" />
     <state width="1730" height="352" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1218" height="493" key="GridCell.Tab.0.left" timestamp="1664843420199">
+    <state width="1218" height="492" key="GridCell.Tab.0.left" timestamp="1665288175670">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664843420199" />
+    <state width="1218" height="492" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665288175670" />
     <state width="1730" height="352" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941854" />
-    <state width="1218" height="493" key="GridCell.Tab.0.right" timestamp="1664843420200">
+    <state width="1218" height="492" key="GridCell.Tab.0.right" timestamp="1665288175676">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="493" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1664843420200" />
+    <state width="1218" height="492" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665288175676" />
     <state width="1730" height="352" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1662648065758" />
     <state width="1730" height="250" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1661897941855" />
-    <state width="1218" height="435" key="GridCell.Tab.1.bottom" timestamp="1662408845883">
+    <state width="1218" height="434" key="GridCell.Tab.1.bottom" timestamp="1665285569276">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="435" key="GridCell.Tab.1.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662408845883" />
+    <state width="1218" height="434" key="GridCell.Tab.1.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665285569276" />
     <state width="1730" height="311" key="GridCell.Tab.1.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1661876412920" />
-    <state width="1218" height="435" key="GridCell.Tab.1.center" timestamp="1662408845882">
+    <state width="1218" height="434" key="GridCell.Tab.1.center" timestamp="1665285569275">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="435" key="GridCell.Tab.1.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662408845882" />
+    <state width="1218" height="434" key="GridCell.Tab.1.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665285569275" />
     <state width="1730" height="311" key="GridCell.Tab.1.center/0.25.1792.1019@0.25.1792.1019" timestamp="1661876412920" />
-    <state width="1218" height="435" key="GridCell.Tab.1.left" timestamp="1662408845881">
+    <state width="1218" height="434" key="GridCell.Tab.1.left" timestamp="1665285569275">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="435" key="GridCell.Tab.1.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662408845881" />
+    <state width="1218" height="434" key="GridCell.Tab.1.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665285569275" />
     <state width="1730" height="311" key="GridCell.Tab.1.left/0.25.1792.1019@0.25.1792.1019" timestamp="1661876412919" />
-    <state width="1218" height="435" key="GridCell.Tab.1.right" timestamp="1662408845882">
+    <state width="1218" height="434" key="GridCell.Tab.1.right" timestamp="1665285569275">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1218" height="435" key="GridCell.Tab.1.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662408845882" />
+    <state width="1218" height="434" key="GridCell.Tab.1.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1665285569275" />
     <state width="1730" height="311" key="GridCell.Tab.1.right/0.25.1792.1019@0.25.1792.1019" timestamp="1661876412920" />
     <state x="1574" y="256" key="RollbackChangesDialog" timestamp="1664646858725">
       <screen x="0" y="25" width="2560" height="1330" />
@@ -499,6 +451,17 @@
     <state x="1417" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1662657515817" />
     <state x="787" y="25" width="1005" height="1119" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1662648928728" />
     <state x="787" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.1792.1019@0.25.1792.1019" timestamp="1661962337714" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/ReachOasis.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ng_2023_notes$PirateTalk.ic" NAME="PirateTalk Coverage Results" MODIFIED="1663633924225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
