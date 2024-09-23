@@ -23,126 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f28cb70-837a-4ea0-9c44-ffa557e79b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1029.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1048.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q116.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q117.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1229.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1244.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1245.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q131.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q133.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1331.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1332.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1338.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1339.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1347.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1358.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1387.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1396.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1472.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1614.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1647.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1656.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1698.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1790.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q1823.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q218.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q239.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q253.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q311.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q314.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q333.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q368.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q380.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q381.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q390.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q404.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q413.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q430.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q445.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q518.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q540.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q583.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q611.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q652.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q665.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q697.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q723.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q746.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q769.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q779.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q797.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q849.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q875.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q888.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q935.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q948.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/Q99.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/goodluck/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/CandyCrush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/Q6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/Q8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag2/TeamPreference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/CandyCrash1D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/CountPairWithGivenSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/FirstUniqueCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/GetStringWithMaxDepth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/IntegerCompression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/MinimumOperationTo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/PrintCoinChange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1048.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q105.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1245.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1338.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1339.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1358.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1506.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1642.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1647.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q1823.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q218.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q2248.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q377.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q404.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q43.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q611.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q637.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q652.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q718.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q746.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q779.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q849.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q86.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q875.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/Q888.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/ReachOasis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/TeamPreference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/company/bloomberg/r2/WelshOrder.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/company/bloomberg/mj/nontag/BinaryStringPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,11 +51,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../Repository/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="customMavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$USER_HOME$/Repository/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2DPjkDYeZlxiyPvdEPDiudoJ97F" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,23 +68,15 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryStringPermutation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rensy/workspace/ng_2023_notes"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="company.expedia.oa" />
@@ -207,7 +85,31 @@
       <recent name="$PROJECT_DIR$/leetcode/src/company/expedia" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.BinaryStringPermutation">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryStringPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.BinaryStringPermutation" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.bloomberg.mj.nontag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CandyCrush1D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.CandyCrush1D" />
       <module name="leetcode" />
@@ -223,19 +125,6 @@
     </configuration>
     <configuration name="IntegerCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.IntegerCompression" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="company.bloomberg.mj.tag.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bloomberg.mj.nontag.PrintCoinChange" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -273,24 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryStringPermutation" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ThrottlingGateway" />
         <item itemvalue="Application.CandyCrush1D" />
         <item itemvalue="Application.IntegerCompression" />
-        <item itemvalue="Application.PrintCoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +297,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="531" y="48" key="#Project_Structure" timestamp="1662148245822">

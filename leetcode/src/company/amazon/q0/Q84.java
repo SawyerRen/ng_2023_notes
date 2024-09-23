@@ -1,7 +1,5 @@
 package company.amazon.q0;
 
-import com.sun.org.apache.regexp.internal.RE;
-
 import java.util.Stack;
 
 public class Q84 {

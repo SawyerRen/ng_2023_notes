@@ -1,6 +1,5 @@
 package company.amazon.q0;
 
-import com.sun.org.apache.bcel.internal.generic.LNEG;
 import model.ListNode;
 
 import java.util.PriorityQueue;
