@@ -5,7 +5,7 @@ import java.util.Stack;
 
 // 这道题两种解法，两个时间复杂度都是n，但是第一种的空间是1，第二种空间是n
 public class Q1249 {
-    // 解法1
+    // 解法1 
     public String minRemoveToMakeValid(String s) {
         // 数右括号的数量
         int right = 0;
