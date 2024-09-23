@@ -10,32 +10,18 @@ public class Q430 {
         public Node child;
     }
 
-    Node pre = null;
-
     public Node flatten(Node head) {
-        if (head == null) return null;
-        if (pre != null) {
-            pre.next = head;
-            head.prev = pre;
-        }
-        pre = head;
-        Node next = head.next;
-        flatten(head.child);
-        head.child = null;
-        flatten(next);
-        return head;
-    }
-
-    public Node flatten1(Node head) {
         if (head == null) return null;
         Stack<Node> stack = new Stack<>();
         Node cur = head;
         while (cur != null) {
+            // 如果child不是null，把next存到stack中，将child变成cur.next
             if (cur.child != null) {
                 if (cur.next != null) stack.push(cur.next);
                 cur.child.prev = cur;
                 cur.next = cur.child;
                 cur.child = null;
+            // cur的next为null，从stack中取出Node作为next节点
             } else if (cur.next == null && !stack.isEmpty()) {
                 Node next = stack.pop();
                 cur.next = next;
