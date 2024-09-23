@@ -2,20 +2,15 @@ package company.bloomberg.mj.nontag;
 
 import java.util.*;
 
+/**
+During each step, you can perform the following two computation:
+n = n * 2
+n = n // 3
+You start with 1, what's the min step you take to reach target value t?
+*/
 public class MinimumOperationToBecome1 {
-    Map<Integer, Integer> map = new HashMap<>();
-
-    int solution1(int n) {
-        if (n == 1) return 0;
-        if (map.containsKey(n)) return map.get(n);
-        int res = Integer.MAX_VALUE;
-        res = Math.min(res, solution1(n * 2) + 1);
-        res = Math.min(res, solution1(n / 3) + 1);
-        map.put(n, res);
-        return res;
-    }
-
-    int solution2(int n) {
+    // 标准的BFS写法，对于每一个数，都有两种选择：乘2或者除以3
+    int solution(int n) {
         Queue<Integer> queue = new LinkedList<>();
         Set<Integer> visited = new HashSet<>();
         queue.add(n);
