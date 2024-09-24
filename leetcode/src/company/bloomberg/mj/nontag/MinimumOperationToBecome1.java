@@ -10,6 +10,7 @@ You start with 1, what's the min step you take to reach target value t?
 */
 public class MinimumOperationToBecome1 {
     // 标准的BFS写法，对于每一个数，都有两种选择：乘2或者除以3
+     // follow up 这个函数如果多次call怎么办？建一个hashmap保存结果
     int solution(int n) {
         Queue<Integer> queue = new LinkedList<>();
         Set<Integer> visited = new HashSet<>();
